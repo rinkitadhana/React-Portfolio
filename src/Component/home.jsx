@@ -18,7 +18,7 @@ const Home = () => {
                 <a href="https://github.com/rinkitadhana" target="_blank"><i className="fi fi-brands-github"></i></a>
                 <a href="https://www.linkedin.com/in/rinkitadhana" target="_blank"><i className="fi fi-brands-linkedin"></i></a>
                 <a href="https://x.com/rnkktt" target="_blank"><i className="fi fi-brands-twitter-alt"></i></a>
-                <a href="https://leetcode.com/u/therinkit" target="_blank"><img className=" h-[1.23rem] fill-black" src="../../../public/logo/leetcode.png" /></a>
+                <a href="https://leetcode.com/u/therinkit" target="_blank"><img className=" h-[1.23rem] fill-black" src="../../../public/logo/leetcode.svg" /></a>
             </div>
             
           </div>        

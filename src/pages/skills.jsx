@@ -1,8 +1,8 @@
 const Skills = () => {
     return (
         <>
-        <div className="flex justify-center mb-10 text-center">
-        <div className=" grid md:grid-cols-4 grid-cols-3 gap-4 text-gray-600">
+        <div className="flex justify-center mb-10 text-center mx-5 md:mx-0">
+        <div className=" grid md:grid-cols-4 grid-cols-3 gap-4 text-gray-600 ">
             
             <div className="border py-2 px-4 font-medium shadow-md border-gray-100 hover:translate-y-1">
                 <h1>HTML</h1>
