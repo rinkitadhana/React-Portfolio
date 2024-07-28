@@ -18,7 +18,7 @@ const Home = () => {
                 <a href="https://github.com/rinkitadhana" target="_blank"><i className="fi fi-brands-github"></i></a>
                 <a href="https://www.linkedin.com/in/rinkitadhana" target="_blank"><i className="fi fi-brands-linkedin"></i></a>
                 <a href="https://x.com/rnkktt" target="_blank"><i className="fi fi-brands-twitter-alt"></i></a>
-                <a href="https://leetcode.com/u/therinkit" target="_blank"><img className=" h-[1.23rem] fill-black" src="../../../public/logo/leetcode.svg" /></a>
+                <a href="https://leetcode.com/u/therinkit" target="_blank"><img className=" h-[1.23rem] fill-black" src="../../../public/logo/leetcode.svg" alt="leetcode" /></a>
             </div>
             
           </div>        
@@ -57,7 +57,7 @@ const Home = () => {
                     <h1>CONTACT</h1>
                 </div>
             <div className="flex justify-center gap-3 text-[#2978b5]">
-                <p className=" border-2 border-[#2978b5] w-fit py-2 px-3 hover:bg-[#2978b5] hover:text-white cursor-pointer">email me</p>
+                <p className=" border-2 border-[#2978b5] w-fit py-2 px-3 hover:bg-[#2978b5] hover:text-white cursor-pointer"><a href="mailto:therinkit@gmail.com">email me</a></p>
             </div>
             </div>
             {/* CONTACT SECTION ENDS */}

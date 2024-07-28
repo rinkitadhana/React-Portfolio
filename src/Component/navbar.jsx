@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     return ( 
-        <div className=" p-4 m-8 border border-gray-100 sticky md:static top-0 bg-white z-50 md:border-0 ">
+        <div className=" p-4 m-8 border-2 border-gray-200 sticky md:static top-0 bg-white z-50 md:border-0 ">
         <nav className="flex justify-between items-center md:w-[90%]" >
             <div>
             <h1 className=" font-bold text-2xl text-[#2978b5]"><a href="#">RA.</a></h1>
