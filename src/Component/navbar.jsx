@@ -17,16 +17,13 @@ const Navbar = () => {
       </div>
 
       <nav className="flex justify-between items-center text-gray-700 py-6 px-8 md:px-32  md:mx-10 md:drop-shadow-none drop-shadow-lg bg-white">
-        <Link
-          className=" font-semibold text-lg hover:text-theme-blue "
-          to="/home"
-        >
+        <Link className=" font-semibold text-lg hover:text-theme-blue " to="/">
           <span className="text-theme-blue">@</span>
           therinkit
         </Link>
         <ul className="hidden xl:flex items-center gap-6 font-semibold text-base">
           <li className="hover:text-theme-blue cursor-pointer">
-            <Link to="/home">home</Link>
+            <Link to="/">home</Link>
           </li>
           <li className="hover:text-theme-blue cursor-pointer">
             {" "}
