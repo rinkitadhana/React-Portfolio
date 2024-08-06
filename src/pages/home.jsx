@@ -1,6 +1,6 @@
 import { SiLeetcode } from "react-icons/si";
-import Project from "../pages/project";
-import Skills from "../pages/skills";
+import Project from "./project";
+import Skills from "./skills";
 const Home = () => {
   return (
     <div className=" text-gray-700">
