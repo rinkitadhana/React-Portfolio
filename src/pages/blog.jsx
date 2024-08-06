@@ -3,4 +3,3 @@ const Blog = () => {
 };
 
 export default Blog;
-<div>Blog</div>;

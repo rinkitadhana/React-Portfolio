@@ -6,7 +6,7 @@ const Home = () => {
     <div className=" text-gray-700">
       {/* HEADER START */}
       <div>
-        <h1 className=" text-center mt-14 md:text-6xl text-4xl font-bold">
+        <h1 className=" text-center md:mt-14 mt-7 md:text-6xl text-4xl font-bold">
           Hi, I am <span className="text-[#2978b5]">Rinkit Adhana.</span>
         </h1>
         <h3 className=" text-center mt-6 md:text-3xl text-2xl font-bold">
