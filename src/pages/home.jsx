@@ -7,7 +7,7 @@ const Home = () => {
       {/* HEADER START */}
       <div>
         <h1 className=" text-center md:mt-14 mt-9 md:text-6xl text-4xl font-bold">
-          Hi, I am <span className="text-[#2978b5]">Rinkit Adhana.</span>
+          Hola, I'm <span className="text-[#2978b5]">Rinkit Adhana.</span>
         </h1>
         <h3 className=" text-center mt-6 md:text-3xl text-2xl font-bold">
           A Full Stack Engineer.
@@ -79,13 +79,6 @@ const Home = () => {
         </div>
       </div>
       {/* CONTACT SECTION ENDS */}
-
-      <div className=" text-center font-bold mb-10 mt-18 text-sm text-gray-600">
-        <h1 className=" hover:text-[#2978b5] cursor-pointer">
-          <a href="https://github.com/rinkitadhana">CREATED BY RINKIT ADHANA</a>
-        </h1>
-      </div>
-      {/* CRESIT SECTION ENDS */}
     </div>
   );
 };
