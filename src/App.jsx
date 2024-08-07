@@ -19,13 +19,8 @@ function App() {
         <div className=" dark:bg-black">
           <BrowserRouter>
             <div className="flex gap-4 justify-end items-center pt-5 mx-8 text-gray-700 dark:text-white">
-              <span className="underline font-serif cursor-pointer border-theme-blue hover:text-theme-blue">
-                <Link
-                  to="https://x.com/rnkktt"
-                  className=" visited:text-pink-500"
-                >
-                  Hire Me
-                </Link>
+              <span className="underline font-serif cursor-pointer text-pink-500 border-theme-blue hover:text-theme-blue">
+                <Link to="mailto:therinkit@gmail.com">Hire Me</Link>
               </span>
               <button
                 className=" top-3 text-xl cursor-pointer text-gray-600 dark:text-white hover:text-theme-blue "
