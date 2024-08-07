@@ -25,7 +25,9 @@ const Footer = () => {
         <LiveClockUpdate />
       </div>
 
-      <div className=" font-serif">©2024 therinkit || All Rights Reserved</div>
+      <div className=" md:font-serif">
+        ©2024 therinkit || All Rights Reserved
+      </div>
     </div>
   );
 };
