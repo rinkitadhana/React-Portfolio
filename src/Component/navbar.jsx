@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="sticky top-0 md:static">
-      <nav className="flex justify-between items-center dark:text-white text-gray-700 py-2 px-8 md:px-40  md:mx-10  bg-white dark:bg-black z-50">
+      <nav className="flex justify-between items-center dark:text-white text-gray-700 py-4 px-8 md:px-40  md:mx-10  bg-white dark:bg-black z-50">
         <Link className=" font-semibold text-lg hover:text-theme-blue " to="/">
           <span className="text-theme-blue">@</span>
           therinkit
@@ -34,7 +34,7 @@ const Navbar = () => {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         />
         <div
-          className={`absolute xl:hidden top-14 left-0 w-full bg-white dark:bg-black darkext-white flex flex-col items-center border-y drop-shadow-lg font-semibold text-base transform transition-transform ${
+          className={`absolute xl:hidden top-16 left-0 w-full bg-white dark:bg-black darkext-white flex flex-col items-center border-y drop-shadow-lg font-semibold text-base transform transition-transform ${
             isMenuOpen ? "opacity-100" : "hidden"
           }`}
           style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
