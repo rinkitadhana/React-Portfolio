@@ -10,10 +10,10 @@ import SelectedProjects from "../inbuild/selectedProjects";
 const Home = () => {
   return (
     <>
-      <div className=" text-gray-700 dark:text-white min-h-screen flex flex-col items-center mt-6">
+      <div className=" text-gray-700 dark:text-white min-h-screen flex flex-col items-center mt-1 ">
         <div className="md:w-3/5 ">
           <div>
-            <h1 className=" text-center md:text-6xl md:mt-6 text-3xl font-bold">
+            <h1 className=" text-center md:text-6xl md:mt-10 text-3xl font-bold">
               Hola, I'm
               <span className="text-[#2978b5]"> Rinkit Adhana</span>.
             </h1>
