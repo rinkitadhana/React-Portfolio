@@ -7,15 +7,6 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="sticky top-0 md:static">
-      <div className="hidden md:flex gap-4 justify-end items-center mt-5 mx-8 text-gray-700">
-        <span className="underline font-serif cursor-pointer border-theme-blue hover:text-theme-blue">
-          <Link to="https://x.com/rnkktt" className=" visited:text-pink-500">
-            Hire Me
-          </Link>
-        </span>
-        <FaMoon className="text-xl cursor-pointer text-gray-600 hover:text-theme-blue " />
-      </div>
-
       <nav className="flex justify-between items-center text-gray-700 py-4 px-8 md:px-40  md:mx-10  bg-white z-50">
         <Link className=" font-semibold text-lg hover:text-theme-blue " to="/">
           <span className="text-theme-blue">@</span>
