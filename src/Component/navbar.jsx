@@ -16,7 +16,7 @@ const Navbar = () => {
         <FaMoon className="text-xl cursor-pointer text-gray-600 hover:text-theme-blue " />
       </div>
 
-      <nav className="flex justify-between items-center text-gray-700 py-4 px-8 md:px-40  md:mx-10 md:drop-shadow-none drop-shadow-lg bg-white">
+      <nav className="flex justify-between items-center text-gray-700 py-4 px-8 md:px-40  md:mx-10  bg-white z-50">
         <Link className=" font-semibold text-lg hover:text-theme-blue " to="/">
           <span className="text-theme-blue">@</span>
           therinkit
@@ -49,18 +49,30 @@ const Navbar = () => {
           }`}
           style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
         >
-          <li className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer">
-            <Link to="/about">About</Link>
-          </li>
-          <li className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer">
-            <Link to="/project">Projects</Link>
-          </li>
-          <li className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer">
-            <Link to="/blog">Blogs</Link>
-          </li>
+          <Link
+            to="/"
+            className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer"
+          >
+            <li>Home</li>
+          </Link>
+          <Link
+            to="/about"
+            className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer"
+          >
+            <li>About</li>
+          </Link>
+          <Link
+            to="/project"
+            className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer"
+          >
+            <li>Projects</li>
+          </Link>
+          <Link
+            to="/blog"
+            className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer"
+          >
+            <li>Blogs</li>
+          </Link>
         </div>
       </nav>
     </div>
