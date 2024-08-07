@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 * {
-  @apply transition-colors duration-200;
+  @apply transition-colors duration-75;
 }

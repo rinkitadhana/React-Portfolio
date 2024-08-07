@@ -19,7 +19,7 @@ const Footer = () => {
   const showDate =
     months[date.getMonth()] + " " + date.getDate() + "," + date.getFullYear();
   return (
-    <div className="flex flex-col items-center py-5 ">
+    <div className="flex flex-col items-center py-5 text-gray-700 dark:text-white">
       <div className=" flex flex-row gap-2">
         <div>{showDate}</div>
         <LiveClockUpdate />

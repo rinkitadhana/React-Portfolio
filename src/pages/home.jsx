@@ -3,7 +3,7 @@ import Project from "./project";
 import Skills from "./skills";
 const Home = () => {
   return (
-    <div className=" text-gray-700">
+    <div className=" text-gray-700 dark:text-white">
       {/* HEADER START */}
       <div>
         <h1 className=" text-center md:mt-14 mt-9 md:text-6xl text-4xl font-bold">

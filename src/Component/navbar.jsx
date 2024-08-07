@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="sticky top-0 md:static">
-      <nav className="flex justify-between items-center text-gray-700 py-4 px-8 md:px-40  md:mx-10  bg-white z-50">
+      <nav className="flex justify-between items-center dark:text-white text-gray-700 py-4 px-8 md:px-40  md:mx-10  bg-white dark:bg-slate-800 z-50">
         <Link className=" font-semibold text-lg hover:text-theme-blue " to="/">
           <span className="text-theme-blue">@</span>
           therinkit

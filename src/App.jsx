@@ -18,7 +18,7 @@ function App() {
       <div className={`${darkMode && "dark"}`}>
         <div className=" dark:bg-slate-800">
           <BrowserRouter>
-            <div className="flex gap-4 justify-end items-center pt-5 mx-8 text-gray-700">
+            <div className="flex gap-4 justify-end items-center pt-5 mx-8 text-gray-700 dark:text-white">
               <span className="underline font-serif cursor-pointer border-theme-blue hover:text-theme-blue">
                 <Link
                   to="https://x.com/rnkktt"
@@ -28,7 +28,7 @@ function App() {
                 </Link>
               </span>
               <button
-                className=" top-3 text-xl cursor-pointer text-gray-600 hover:text-theme-blue "
+                className=" top-3 text-xl cursor-pointer text-gray-600 dark:text-white hover:text-theme-blue "
                 onClick={toggleDarkMode}
               >
                 {darkMode ? <FaSun /> : <FaMoon />}
