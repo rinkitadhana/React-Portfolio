@@ -38,7 +38,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/project" element={<Project />} />
               <Route path="/blog" element={<Blog />} />
-              <Route path="/*" element={<ErrorMessage />} />
+              <Route path="*" element={<ErrorMessage />} />
             </Routes>
             <Footer />
           </BrowserRouter>
