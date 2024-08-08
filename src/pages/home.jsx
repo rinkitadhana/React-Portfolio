@@ -10,7 +10,7 @@ import SelectedProjects from "../inbuild/selectedProjects";
 const Home = () => {
   return (
     <>
-      <div className=" text-gray-700 dark:text-white min-h-screen flex flex-col items-center mt-2 ">
+      <div className=" text-gray-700 dark:text-white  flex justify-center mt-2">
         <div className="md:w-3/5 ">
           <div>
             <h1 className=" text-center md:text-6xl md:mt-8 text-3xl font-bold">
@@ -25,7 +25,7 @@ const Home = () => {
             <div className="text-center font-bold text-lg mt-2 md:hidden">
               A Full Stack Engineer
             </div>
-            <div className=" mt-4 text-justify  md:text-center  px-6">
+            <div className=" mt-4 text-justify  md:text-start  px-6">
               Hi there! I'm Rinkit Adhana, a second-year student at Maharaja
               Agrasen Institute of Technology. I'm all about full-stack
               development, especially with MERN. I'm also into Data Structure

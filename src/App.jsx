@@ -7,6 +7,7 @@ import { FaMoon, FaSun } from "react-icons/fa";
 import Navbar from "./Component/navbar";
 import Footer from "./Component/footer";
 import { useState } from "react";
+import ErrorMessage from "./inbuild/404";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       <div className={`${darkMode && "dark"}`}>
-        <div className=" dark:bg-black">
+        <div className=" dark:bg-black min-h-screen">
           <BrowserRouter>
             <div className="flex gap-4 justify-end items-center pt-5 mx-8 text-gray-700 dark:text-white">
               <span className="underline font-serif cursor-pointer text-pink-500 border-theme-blue hover:text-gray-700 dark:hover:text-white">
@@ -37,6 +38,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/project" element={<Project />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/*" element={<ErrorMessage />} />
             </Routes>
             <Footer />
           </BrowserRouter>
