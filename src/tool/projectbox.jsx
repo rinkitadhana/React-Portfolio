@@ -16,9 +16,11 @@ const ProjectBox = () => {
               <div className=" font-bold text-gray-800 dark:text-white text-lg md:text-xl  ">
                 Ghoda With Loda
               </div>
-              <div className=" dark:bg-white/20 bg-black/10 px-1 py-0.5  rounded-sm text-xs font-semibold dark:text-white text-black flex flex-row  items-center">
-                <GoDotFill className="text-green-500" />
-                Building
+              <div className="hidden md:block">
+                <div className=" dark:bg-white/20 bg-black/10 px-1 py-0.5  rounded-sm text-xs font-semibold dark:text-white text-black flex flex-row  items-center">
+                  <GoDotFill className="text-green-500" />
+                  Building
+                </div>
               </div>
             </div>
 
