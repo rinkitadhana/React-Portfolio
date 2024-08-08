@@ -1,5 +1,7 @@
 import { FaRegFile } from "react-icons/fa6";
 
+import ProjectBox from "../tool/projectbox";
+
 const SelectedProjects = () => {
   return (
     <div>
@@ -8,6 +10,9 @@ const SelectedProjects = () => {
           Selected Projects
           <FaRegFile />.
         </div>
+        <ProjectBox />
+        <ProjectBox />
+        <ProjectBox />
       </div>
     </div>
   );

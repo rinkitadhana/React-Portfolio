@@ -10,7 +10,7 @@ import SelectedProjects from "../inbuild/selectedProjects";
 const Home = () => {
   return (
     <>
-      <div className=" text-gray-700 dark:text-white  flex justify-center mt-2">
+      <div className=" text-gray-700 dark:text-white flex justify-center mt-2">
         <div className="md:w-3/5 ">
           <div>
             <h1 className=" text-center md:text-6xl md:mt-8 text-3xl font-bold">
