@@ -11,7 +11,7 @@ const Highlights = () => {
       </div>
       <div className="mt-3">
         <div className=" border-y-2 dark:border-white/30">
-          <div className=" py-4">
+          <div className=" py-4 text-justify md:text-start">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos,
             beatae reprehenderit consequatur quisquam dolorum quis tempore, ut
             ducimus, esse veniam maiores blanditiis eligendi soluta? Cumque
@@ -20,7 +20,7 @@ const Highlights = () => {
           </div>
         </div>
         <div className=" border-b-2 dark:border-white/30">
-          <div className=" py-4">
+          <div className=" py-4 text-justify md:text-start">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
             distinctio est consectetur ad aperiam. Dolores ipsum fugit
             assumenda, aliquid molestias illo hic libero explicabo ex aperiam
@@ -29,7 +29,7 @@ const Highlights = () => {
           </div>
         </div>
         <div className=" border-b-2 dark:border-white/30">
-          <div className=" py-4">
+          <div className=" py-4 text-justify md:text-start">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
             distinctio est consectetur ad aperiam. Dolores ipsum fugit
             assumenda, aliquid molestias illo hic libero explicabo ex aperiam
