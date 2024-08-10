@@ -7,6 +7,7 @@ import { SiBuymeacoffee, SiLeetcode } from "react-icons/si";
 import Skills from "../inbuild/skills";
 import SelectedProjects from "../inbuild/selectedProjects";
 import { PiDotsThreeOutlineDuotone } from "react-icons/pi";
+import Highlights from "../inbuild/highlights";
 
 const Home = () => {
   return (
@@ -91,6 +92,7 @@ const Home = () => {
 
           <Skills />
           <SelectedProjects />
+          <Highlights />
         </div>
       </div>
     </>
