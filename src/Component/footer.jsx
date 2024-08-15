@@ -26,8 +26,15 @@ const Footer = () => {
       </div>
 
       <div className="font-serif text-xs md:text-base text-center">
-        ©2024 <span className="text-pink-500">therinkit</span> || All Rights
-        Reserved
+        ©2024{" "}
+        <a
+          href=""
+          target="_blank"
+          className=" text-pink-500 hover:text-theme-blue"
+        >
+          therinkit{" "}
+        </a>
+        || All Rights Reserved
       </div>
     </div>
   );
