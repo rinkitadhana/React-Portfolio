@@ -1,13 +1,12 @@
 import { FaRegFile } from "react-icons/fa6";
 
 import ProjectBox from "../tool/projectbox";
-import { Link } from "react-router-dom";
 import { PiDotsThreeOutlineDuotone } from "react-icons/pi";
 
 const SelectedProjects = () => {
   return (
     <div>
-      <div className=" mt-6 md:px-6 px-3">
+      <div className=" mt-7 md:px-6 px-3">
         <PiDotsThreeOutlineDuotone className=" text-2xl text-pink-500" />
         <div className=" font-bricolage flex items-center   gap-1 text-2xl font-semibold">
           Selected Projects

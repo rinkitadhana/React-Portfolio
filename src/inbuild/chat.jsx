@@ -7,11 +7,11 @@ import { SiBuymeacoffee, SiLeetcode } from "react-icons/si";
 import { PiDotsThreeOutlineDuotone } from "react-icons/pi";
 const Chat = () => {
   return (
-    <div className="md:px-6 px-3 mt-6">
+    <div className="md:px-6 px-3 mt-7">
       <PiDotsThreeOutlineDuotone className=" text-2xl text-pink-500" />
 
       <div className=" font-bricolage flex items-center gap-1 text-2xl font-semibold  ">
-        Let's have a chat
+        Find Me on
         <IoChatbubbleOutline /> .
       </div>
 

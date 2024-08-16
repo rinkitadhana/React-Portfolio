@@ -24,7 +24,7 @@ import { VscTerminalLinux, VscTools } from "react-icons/vsc";
 const Skills = () => {
   return (
     <>
-      <div className="md:px-6 px-3 mt-6">
+      <div className="md:px-6 px-3 mt-7">
         <PiDotsThreeOutlineDuotone className=" text-2xl text-pink-500" />
         <div className=" font-bricolage flex items-center   gap-1 text-2xl font-semibold">
           Skills & Tools
