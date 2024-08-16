@@ -34,7 +34,7 @@ const SelectedProjects = () => {
           title="LinkIt"
           status="Running"
           statusColor="text-green-500"
-          content="A project that includes all your social media and project links, fully customizable with a simple and easy-to-use interface. It provides a streamlined way to showcase your online presence."
+          content="A project that includes all your social media and project links, fully customizable with a simple and easy-to-use interface. It provides a streamlined way to showcase your online presence, allowing you to effortlessly update and manage your profiles."
           url="https://therinkit-linkit.vercel.app/"
           github="https://github.com/rinkitadhana/LinkIt"
           skill={["React", "Tailwind"]}
@@ -44,7 +44,7 @@ const SelectedProjects = () => {
           title="TweetSpree"
           status="Building"
           statusColor="text-blue-500"
-          content="A project to boost your Twitter engagement by generating a variety of programming-related content, including fun questions, creative tweets, and useful advice. This tool helps you connect with your audience by providing fresh and engaging posts tailored to the programming community"
+          content="A project to boost your Twitter engagement by generating a variety of programming-related content, including fun questions, creative tweets, and useful advice. This tool helps you connect with your audience by providing fresh and engaging posts tailored to the programming community."
           url="https://therinkit-tweetspree.vercel.app/"
           github="github.com/rinkitadhana/TweetSpree"
           skill={["React", "Tailwind", "Node"]}
