@@ -7,10 +7,14 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 md:static">
       <nav className="flex justify-between items-center dark:text-white text-gray-700 py-4 px-8 md:px-40  md:mx-10  bg-white dark:bg-black z-50">
-        <Link className=" font-semibold text-lg  " to="/">
+        <a
+          className=" font-semibold text-lg hover:text-theme-blue"
+          target="_blank"
+          href="https://therinkit-linkit.vercel.app/"
+        >
           <span className="text-theme-blue">@</span>
           therinkit
-        </Link>
+        </a>
         <ul className="hidden xl:flex items-center gap-6 font-semibold text-base">
           <li className="hover:text-theme-blue cursor-pointer ">
             <Link to="/">home</Link>

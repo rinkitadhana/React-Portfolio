@@ -28,7 +28,7 @@ const Footer = () => {
       <div className="font-serif text-xs md:text-base text-center">
         ©2024{" "}
         <a
-          href=""
+          href="https://github.com/rinkitadhana"
           target="_blank"
           className=" text-pink-500 hover:text-theme-blue"
         >
