@@ -13,7 +13,7 @@ const SelectedProjects = () => {
           <FaRegFile />.
         </div>
         <ProjectBox
-          img="./public/project/Anecdot.png"
+          img="./project/Anecdot.png"
           title="Anecdot."
           status="Building"
           statusColor="text-blue-500"
@@ -30,7 +30,7 @@ const SelectedProjects = () => {
           ]}
         />
         <ProjectBox
-          img="./public/project/LinkIt.png"
+          img="./project/LinkIt.png"
           title="LinkIt"
           status="Running"
           statusColor="text-green-500"
@@ -40,7 +40,7 @@ const SelectedProjects = () => {
           skill={["React", "Tailwind"]}
         />
         <ProjectBox
-          img="./public/project/TweetSpree.png"
+          img="./project/TweetSpree.png"
           title="TweetSpree"
           status="Building"
           statusColor="text-blue-500"
