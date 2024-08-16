@@ -13,40 +13,41 @@ const SelectedProjects = () => {
           <FaRegFile />.
         </div>
         <ProjectBox
-          img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
-          title="abc"
+          img="./public/project/Anecdot.png"
+          title="Anecdot."
           status="Building"
           statusColor="text-blue-500"
-          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-          url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-          github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-          skill={["React", "HTML", "CSS"]}
+          content="A full stack blogging website built using the MERN stack, offering a variety of features to enhance user experience. The website allows users to manage their profiles, and engage with content through comments and likes. It also includes user authentication and real-time updates."
+          url=""
+          github="https://github.com/rinkitadhana/Anecdot"
+          skill={[
+            "React",
+            "Tailwind",
+            "Node",
+            "Express",
+            "Mongo",
+            "Redux Toolkit",
+          ]}
         />
         <ProjectBox
-          img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
-          title="def"
+          img="./public/project/LinkIt.png"
+          title="LinkIt"
           status="Running"
           statusColor="text-green-500"
-          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-          url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-          github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-          skill={["React", "HTML", "CSS"]}
+          content="A project that includes all your social media and project links, fully customizable with a simple and easy-to-use interface. It provides a streamlined way to showcase your online presence."
+          url="https://therinkit-linkit.vercel.app/"
+          github="https://github.com/rinkitadhana/LinkIt"
+          skill={["React", "Tailwind"]}
         />
         <ProjectBox
-          img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
-          title="abc"
+          img="./public/project/TweetSpree.png"
+          title="TweetSpree"
           status="Building"
           statusColor="text-blue-500"
-          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-          url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-          github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-          skill={["React", "HTML", "CSS"]}
+          content="A project to boost your Twitter engagement by generating a variety of programming-related content, including fun questions, creative tweets, and useful advice. This tool helps you connect with your audience by providing fresh and engaging posts tailored to the programming community"
+          url="https://therinkit-tweetspree.vercel.app/"
+          github="github.com/rinkitadhana/TweetSpree"
+          skill={["React", "Tailwind", "Node"]}
         />
 
         <div className="flex justify-center mt-4">

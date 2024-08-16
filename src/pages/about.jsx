@@ -1,8 +1,6 @@
-import Building from "../inbuild/building";
-
 const About = () => {
   return (
-    <div className=" text-gray-700 dark:text-white flex flex-col md:flex-row  justify-center mt-2 ">
+    <div className=" page transition-opacity duration-500 opacity-100 text-gray-700 dark:text-white flex flex-col md:flex-row  justify-center mt-2 ">
       <div className="md:w-3/5 px-2  ">
         <div className="flex flex-row justify-start ">
           <div className=" text-2xl font-bricolage font-semibold">About Me</div>

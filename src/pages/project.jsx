@@ -1,4 +1,3 @@
-import Building from "../inbuild/building";
 import ProjectBox from "../tool/projectbox";
 
 const Project = () => {
@@ -16,102 +15,6 @@ const Project = () => {
           </a>
         </div>
         <div className="px-2.5">
-          <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
-            title="abc"
-            status="Building"
-            statusColor="text-blue-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
-          />
-          <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
-            title="abc"
-            status="Building"
-            statusColor="text-blue-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
-          />
-          <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
-            title="abc"
-            status="Building"
-            statusColor="text-blue-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
-          />
-          <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
-            title="abc"
-            status="Building"
-            statusColor="text-blue-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
-          />
-          <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
-            title="abc"
-            status="Building"
-            statusColor="text-blue-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
-          />
-          <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
-            title="abc"
-            status="Building"
-            statusColor="text-blue-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
-          />
-          <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
-            title="abc"
-            status="Building"
-            statusColor="text-blue-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
-          />
-          <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
-            title="abc"
-            status="Building"
-            statusColor="text-blue-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
-          />
           <ProjectBox
             img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
             title="abc"

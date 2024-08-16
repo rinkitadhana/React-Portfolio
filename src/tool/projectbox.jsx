@@ -11,6 +11,7 @@ const ProjectBox = (props) => {
           src={`${props.img}`}
           alt="cha mud gyoi"
         />
+
         <div>
           <div className=" flex justify-between items-center">
             <div className="flex  items-center gap-2">
@@ -44,7 +45,7 @@ const ProjectBox = (props) => {
               </div>
             </div>
           </div>
-          <div>{props.content}</div>
+          <div className=" text-[0.9rem] ">{props.content}</div>
         </div>
       </div>
       <ul className="flex flex-row gap-2.5">
