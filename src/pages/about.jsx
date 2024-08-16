@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex flex-row justify-start ">
           <div className=" text-2xl font-bricolage font-semibold">About Me</div>
         </div>
-        <div className=" leading-5  md:leading-6  px-2">
+        <div className="   px-2">
           <div className=" mt-2 md:text-start text-justify ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
             debitis inventore, quidem, quod dolorum, nihil soluta vitae magni
@@ -27,11 +27,28 @@ const About = () => {
             iste hic quasi. Deleniti, repudiandae.
           </div>
         </div>
-        <div className=" hidden mt-8 md:flex justify-center ">
-          <img
-            className=" hover:translate-y-1 transition delay-100  rounded-2xl  shadow-black shadow-2xl"
-            src="https://miro.medium.com/v2/resize:fit:1080/1*vBi4Ycgdn5t3lu2SvQXuog.gif"
-          />
+        <div>
+          <div className="flex flex-row justify-start mt-4">
+            <div className=" text-2xl font-bricolage font-semibold">
+              Days I code
+            </div>
+          </div>
+          <div className=" p-4">
+            <img
+              className=" size-full"
+              src="https://ghchart.rshah.org/008000/rinkitadhana"
+              alt="rinkitadhana's Github chart"
+            />
+
+            <div className="mt-8 flex flex-col md:flex-row gap-2 ">
+              <div>
+                <img src="https://leetcard.jacoblin.cool/therinkit?theme=light" />
+              </div>
+              <div>
+                <img src="https://streak-stats.demolab.com/?user=rinkitadhana&theme=light" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -23,7 +23,7 @@ const Home = () => {
             <div className="text-center font-bold text-lg mt-1 md:hidden">
               A <span className=" text-pink-500">Full Stack</span> Engineer
             </div>
-            <div className=" md:mt-6 mt-4 text-justify leading-5 md:leading-6 tracking-tight md:px-6 px-3">
+            <div className=" md:mt-6 mt-4 text-justify  md:px-6 px-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
               odit aut natus, ducimus, tempora velit exercitationem eum facilis
               magnam placeat debitis aliquam eveniet molestiae nostrum.
