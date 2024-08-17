@@ -17,11 +17,12 @@ const SelectedProjects = () => {
           title="Anecdot."
           status="Building"
           statusColor="text-blue-500"
-          content="A full stack blogging website built using the MERN stack, offering a variety of features to enhance user experience. The website allows users to manage their profiles, and engage with content through comments and likes. It also includes user authentication and real-time updates."
+          content="A full stack blogging website built using the MERN stack, offering a variety of features to enhance user experience. The website allows users to manage their profiles, and engage through comments and likes. It also includes user authentication and real-time updates."
           url=""
           github="https://github.com/rinkitadhana/Anecdot"
           skill={[
             "React",
+            "Flowbite",
             "Tailwind",
             "Node",
             "Express",
@@ -42,12 +43,12 @@ const SelectedProjects = () => {
         <ProjectBox
           img="./project/TweetSpree.png"
           title="TweetSpree"
-          status="Building"
-          statusColor="text-blue-500"
+          status="Running"
+          statusColor="text-green-500"
           content="A project to boost your Twitter engagement by generating a variety of programming-related content, including fun questions, creative tweets, and useful advice. This tool helps you connect with your audience by providing fresh and engaging posts tailored to the programming community."
           url="https://therinkit-tweetspree.vercel.app/"
           github="github.com/rinkitadhana/TweetSpree"
-          skill={["React", "Tailwind", "Node"]}
+          skill={["React", "Tailwind", "Node", "AI"]}
         />
 
         <div className="flex justify-center mt-4">

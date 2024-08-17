@@ -24,14 +24,46 @@ const Home = () => {
               A <span className=" text-pink-500">Full Stack</span> Engineer
             </div>
             <div className=" md:mt-6 mt-4 text-justify  md:px-6 px-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-              odit aut natus, ducimus, tempora velit exercitationem eum facilis
-              magnam placeat debitis aliquam eveniet molestiae nostrum.
-              Reiciendis, ut autem? Quod reiciendis tempora ratione non,
-              deserunt possimus minus mollitia sapiente a neque, consequuntur
-              voluptate repellendus esse ab dolor perferendis, animi accusantium
-              illo hic sed culpa doloremque. Eos, dolorum optio non voluptate
-              consequatur nobis veritatis quam distinctio quasi earum.
+              I'm currently in my{" "}
+              <span className=" font-bold text-gray-500 dark:text-white">
+                Third year
+              </span>
+              , pursuing B.Tech in{" "}
+              <span className=" font-bold text-gray-500 dark:text-white">
+                Computer Science and Engineering
+              </span>{" "}
+              at IPU, Delhi. Although I am familiar with many technologies, as
+              listed in the "
+              <span className=" font-bold text-gray-500 dark:text-white">
+                Skills and Tools
+              </span>
+              " section, I primarily work with{" "}
+              <span className=" font-bold text-gray-500 dark:text-white">
+                React and Tailwind
+              </span>{" "}
+              for the frontend, and{" "}
+              <span className=" font-bold text-gray-500 dark:text-white">
+                Express and MongoDB
+              </span>{" "}
+              for the backend. I have created many cool projects with these
+              technologies. , which you can view in the "
+              <span className=" font-bold text-gray-500 dark:text-white">
+                Projects
+              </span>
+              " section . Besides development, I am also skilled in{" "}
+              <span className=" font-bold text-gray-500 dark:text-white">
+                Data Structures and Algorithms
+              </span>{" "}
+              (DSA) and practice daily with LeetCode questions, which you can
+              see on my{" "}
+              <span className=" font-bold text-gray-500 dark:text-white">
+                LeetCode profile
+              </span>
+              .
+            </div>
+            <div className=" text-center mt-3 font-bricolage font-semibold text-sm md:text-base">
+              Explore my <span className="text-theme-blue">portfolio</span>. I
+              hope you like it <span className=" text-pink-500">:)</span>
             </div>
           </div>
           <Chat />

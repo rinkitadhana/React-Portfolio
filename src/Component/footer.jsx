@@ -20,6 +20,17 @@ const Footer = () => {
     months[date.getMonth()] + " " + date.getDate() + "," + date.getFullYear();
   return (
     <div className="flex flex-col py-5 text-gray-700 dark:text-white mt-6">
+      <div className="text-center mb-4 font-bricolage font-semibold text-sm md:text-base">
+        Always open to{" "}
+        <a
+          href="https://github.com/rinkitadhana/React-Portfolio"
+          target="_blank"
+          className="hover:underline text-theme-blue"
+        >
+          feedback
+        </a>{" "}
+        on my work.
+      </div>
       <div className=" flex flex-row gap-2 justify-center">
         <div>{showDate}</div>
         <LiveClockUpdate />
