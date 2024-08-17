@@ -1,6 +1,5 @@
 import { BsFeather } from "react-icons/bs";
 import { PiDotsThreeOutlineDuotone } from "react-icons/pi";
-import HighlightText from "../tool/highlightText";
 
 const Highlights = () => {
   return (
