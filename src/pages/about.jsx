@@ -58,7 +58,7 @@ const About = () => {
                 </li>
 
                 <li className=" flex flex-row gap-1 items-center">
-                  <i className="fa-solid fa-code"></i>Code and music are my
+                  <i className="fa-solid fa-code"></i>Code with music is my
                   therapy.{" "}
                   <a
                     href="https://open.spotify.com/playlist/1s4o3U5fmDvhGp3kA0W3Mf?si=149bd9a8df3e4d8f"
