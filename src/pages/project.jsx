@@ -50,7 +50,7 @@ const Project = () => {
             content="A project to boost your Twitter engagement by generating a variety of programming-related content, including fun questions, creative tweets, and useful advice. This tool helps you connect with your audience by providing fresh and engaging posts tailored to the programming community."
             url="https://therinkit-tweetspree.vercel.app/"
             github="github.com/rinkitadhana/TweetSpree"
-            skill={["React", "Tailwind", "Node"]}
+            skill={["React", "Tailwind", "Node", "AI"]}
           />
           <ProjectBox
             img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
