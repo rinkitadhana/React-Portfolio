@@ -21,7 +21,7 @@ const Project = () => {
             status="Building"
             statusColor="text-blue-500"
             content="A full stack blogging website built using the MERN stack, offering a variety of features to enhance user experience. The website allows users to manage their profiles, and engage through comments and likes. It also includes user authentication and real-time updates."
-            url=""
+            url="https://therinkit-building.vercel.app"
             github="https://github.com/rinkitadhana/Anecdot"
             skill={[
               "React",
@@ -53,89 +53,89 @@ const Project = () => {
             skill={["React", "Tailwind", "Node", "AI"]}
           />
           <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
+            img="./project/11Hack.png"
             title="11Hack"
             status="Building"
             statusColor="text-blue-500"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
             error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
+            url="https://therinkit-building.vercel.app"
+            github="https://therinkit-building.vercel.app"
+            skill={["React", "Tailwind"]}
           />
 
           <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
+            img="./project/Apple.png"
             title="Apple Clone"
             status="Building"
             statusColor="text-blue-500"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
             error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
+            url="https://therinkit-building.vercel.app"
+            github="https://therinkit-building.vercel.app"
+            skill={["React", "Tailwind"]}
           />
           <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
+            img="https://pbs.twimg.com/profile_images/1701878932176351232/AlNU3WTK_400x400.jpg"
             title="Text to Speech"
-            status="Building"
-            statusColor="text-blue-500"
+            status="Running"
+            statusColor="text-green-500"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
             error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
+            url="https://ttsrinkit.netlify.app/"
+            github="https://github.com/rinkitadhana/text-to-speech"
+            skill={["HTML", "Javascript", "Tailwind"]}
           />
           <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
+            img="https://pbs.twimg.com/profile_images/1701878932176351232/AlNU3WTK_400x400.jpg"
             title="LyteRate"
-            status="Building"
-            statusColor="text-blue-500"
+            status="Running"
+            statusColor="text-green-500"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
             error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
+            url="https://lyterate.netlify.app/"
+            github="https://github.com/rinkitadhana/LyteRate"
+            skill={["HTML", "CSS", "Javascript"]}
           />
           <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
+            img="https://pbs.twimg.com/profile_images/1701878932176351232/AlNU3WTK_400x400.jpg"
             title="Clean-up connect"
-            status="Building"
-            statusColor="text-blue-500"
+            status="Running"
+            statusColor="text-green-500"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
             error in!"
             url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
             github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
+            skill={["HTML", "CSS", "Javascript"]}
           />
           <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
+            img="./project/Snake.png"
             title="Snake Game"
-            status="Building"
-            statusColor="text-blue-500"
+            status="Running"
+            statusColor="text-green-500"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
             error in!"
             url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
             github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
+            skill={["Java", "JavaFX"]}
           />
           <ProjectBox
-            img="https://upload.wikimedia.org/wikipedia/commons/c/c3/Kala_Ghoda_Statue.jpg"
+            img="./project/StopWatch.png"
             title="Stop Watch"
-            status="Building"
-            statusColor="text-blue-500"
+            status="Running"
+            statusColor="text-green-500"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
             error in!"
             url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
             github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["React", "HTML", "CSS"]}
+            skill={["Java", "JavaFX"]}
           />
         </div>
       </div>

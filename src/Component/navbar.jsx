@@ -38,7 +38,7 @@ const Navbar = () => {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         />
         <div
-          className={`absolute xl:hidden top-16 left-0 w-full bg-white dark:bg-black dark:text-white flex flex-col items-center border-y dark:border-y-gray-500 drop-shadow-lg font-semibold text-base transform transition-transform ${
+          className={` absolute xl:hidden top-16 left-0 w-full bg-white dark:bg-black dark:text-white flex flex-col items-center border-y dark:border-y-gray-500 drop-shadow-lg font-semibold text-base transform transition-transform ${
             isMenuOpen ? "block" : "hidden"
           }`}
           style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
