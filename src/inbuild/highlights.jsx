@@ -11,8 +11,8 @@ const Highlights = () => {
       </div>
       <div className="mt-3">
         <div className="border-b-2 dark:border-white/30"></div>
-        <div>
-          <div className=" border-b-2 dark:border-white/30">
+        <div className=" divide-y-2 dark:divide-white/30">
+          <div>
             <div className=" py-4 text-center  md:text-start">
               I'm currently on a{" "}
               <span className=" font-bold text-gray-500 dark:text-white ">
@@ -45,7 +45,7 @@ const Highlights = () => {
               .
             </div>
           </div>
-          <div className=" border-b-2 dark:border-white/30">
+          <div>
             <div className=" py-4 text-center  md:text-start">
               I created my{" "}
               <span className=" font-bold text-gray-500 dark:text-white ">
@@ -72,7 +72,7 @@ const Highlights = () => {
               </a>
             </div>
           </div>
-          <div className=" border-b-2 dark:border-white/30">
+          <div>
             <div className=" py-4 text-center  md:text-start">
               I started learning programming with{" "}
               <span className=" font-bold text-gray-500 dark:text-white ">
@@ -98,6 +98,7 @@ const Highlights = () => {
             </div>
           </div>
         </div>
+        <div className="border-b-2 dark:border-white/30"></div>
       </div>
     </div>
   );
