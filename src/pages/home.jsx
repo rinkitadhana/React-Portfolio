@@ -13,7 +13,7 @@ const Home = () => {
           <div>
             <h1 className=" text-gray-700 px-2 md:px-0 dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
               <span>
-                ¡Hola!, I'm{" "}
+                Hola, I am{" "}
                 <span className="text-theme-blue">Rinkit Adhana</span>
               </span>
             </h1>
