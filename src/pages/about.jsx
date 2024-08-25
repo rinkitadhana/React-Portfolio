@@ -71,8 +71,8 @@ const About = () => {
               </ul>
             </div>
             <img
-              className=" border md:size-56 rounded-lg hover:scale-105  transition delay-100"
-              src="/IMG/dp.jpeg"
+              className=" border md:size-56 rounded-full hover:scale-105  transition delay-100"
+              src="/IMG/dp2.jpg"
             />
           </div>
           <div className=" my-2 md:text-start text-justify mt-6 ">

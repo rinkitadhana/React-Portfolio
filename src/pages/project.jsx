@@ -57,72 +57,50 @@ const Project = () => {
             title="11Hack"
             status="Building"
             statusColor="text-blue-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
+            content="A full-stack project showcasing the top 11 hackathon ideas from various students, ranked by popularity. This project helps you effectively implement these ideas and improve your chances of winning."
             url="https://therinkit-building.vercel.app"
             github="https://therinkit-building.vercel.app"
-            skill={["React", "Tailwind"]}
+            skill={["React", "Tailwind", "Express", "MongoDB"]}
           />
 
           <ProjectBox
-            img="./project/Apple.png"
-            title="Apple Clone"
-            status="Building"
-            statusColor="text-blue-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://therinkit-building.vercel.app"
-            github="https://therinkit-building.vercel.app"
-            skill={["React", "Tailwind"]}
-          />
-          <ProjectBox
-            img="https://pbs.twimg.com/profile_images/1701878932176351232/AlNU3WTK_400x400.jpg"
+            img="./project/TTS.png"
             title="Text to Speech"
             status="Running"
             statusColor="text-green-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
+            content="I created this simple text-to-speech project to refine my JavaScript skills. The special feature of this project is its UI, and it is fully functional. Additionally, it integrates various speech synthesis options to enhance user interaction."
             url="https://ttsrinkit.netlify.app/"
             github="https://github.com/rinkitadhana/text-to-speech"
             skill={["HTML", "Javascript", "Tailwind"]}
           />
           <ProjectBox
-            img="https://pbs.twimg.com/profile_images/1701878932176351232/AlNU3WTK_400x400.jpg"
+            img="./project/LyteRate.png"
             title="LyteRate"
             status="Running"
             statusColor="text-green-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
+            content="It is an educational website created during one of my hackathons, using only HTML, CSS, and JavaScript when I was in my first year. The UI is really great, and it demonstrates my early ability to create user-friendly designs."
             url="https://lyterate.netlify.app/"
             github="https://github.com/rinkitadhana/LyteRate"
-            skill={["HTML", "CSS", "Javascript"]}
+            skill={["HTML", "CSS", "Javascript", "Bootstrap"]}
           />
           <ProjectBox
-            img="https://pbs.twimg.com/profile_images/1701878932176351232/AlNU3WTK_400x400.jpg"
+            img="./project/Xylem.png"
             title="Clean-up connect"
             status="Running"
             statusColor="text-green-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            skill={["HTML", "CSS", "Javascript"]}
+            content="This is a project and research paper on water pollution and its solutions, created for the Xylem-India hackathon. On the GitHub repository, you can find our solution, and the website contains additional representations."
+            url="https://xylemcleanup.netlify.app/"
+            github="https://github.com/rinkitadhana/Xylem-Research-Paper"
+            skill={["HTML", "CSS", "Javascript", "Research"]}
           />
           <ProjectBox
             img="./project/Snake.png"
             title="Snake Game"
             status="Running"
             statusColor="text-green-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
+            content="I made this snake game in my first year just for fun. At that time, I was a big Java fan and created this project using Java and JavaFX. This project really helped me deepen my understanding of object-oriented programming."
+            url="https://github.com/rinkitadhana/SnakeByJava"
+            github="https://github.com/rinkitadhana/SnakeByJava"
             skill={["Java", "JavaFX"]}
           />
           <ProjectBox
@@ -130,11 +108,9 @@ const Project = () => {
             title="Stop Watch"
             status="Running"
             statusColor="text-green-500"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            ullam, natus quia accusamus fuga debitis asperiores nemo adipisci
-            error in!"
-            url="https://www.youtube.com/watch?v=m7OWXtbiXX8"
-            github="https://www.youtube.com/watch?v=m7OWXtbiXX8"
+            content="I created this stopwatch to customize its functionality. It was built using only Java and JavaFX and is fully operational. This project helped me enhance my skills in Java programming and GUI design"
+            url="https://github.com/rinkitadhana/StopWatchByJava"
+            github="https://github.com/rinkitadhana/StopWatchByJava"
             skill={["Java", "JavaFX"]}
           />
         </div>

@@ -6,40 +6,14 @@ import helloInLanguages from "../tool/HelloData";
 import { useEffect, useState } from "react";
 
 const Home = () => {
-  const getRandomElement = (arr) => {
-    const randomIndex = Math.floor(Math.random() * arr.length);
-    return arr[randomIndex];
-  };
-
-  const [changingValue, setChangingValue] = useState(
-    getRandomElement(helloInLanguages)
-  );
-  const [isFading, setIsFading] = useState(false);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setIsFading(true); // Trigger fade out
-      setTimeout(() => {
-        setChangingValue(getRandomElement(helloInLanguages)); // Change the text
-        setIsFading(false); // Trigger fade in
-      }, 600); // Match this timeout with the duration of fade-out transition
-    }, 6000);
-
-    // No cleanup function is used here.
-  }, []);
-
   return (
     <>
       <div className=" text-gray-700 dark:text-white flex justify-center mt-2">
         <div className="md:w-3/5 ">
           <div>
             <h1 className=" text-gray-700 px-2 md:px-0 dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
-              <span
-                className={`transition-opacity duration-700 ${
-                  isFading ? "opacity-0" : "opacity-100"
-                }`}
-              >
-                {changingValue}, I'm{" "}
+              <span>
+                ¡Hola!, I'm{" "}
                 <span className="text-theme-blue">Rinkit Adhana</span>
               </span>
             </h1>
