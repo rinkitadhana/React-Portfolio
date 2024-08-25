@@ -33,7 +33,7 @@ const Home = () => {
       <div className=" text-gray-700 dark:text-white flex justify-center mt-2">
         <div className="md:w-3/5 ">
           <div>
-            <h1 className=" text-gray-700 dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
+            <h1 className=" text-gray-700 px-2 md:px-0 dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
               <span
                 className={`transition-opacity duration-700 ${
                   isFading ? "opacity-0" : "opacity-100"

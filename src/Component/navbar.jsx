@@ -8,12 +8,14 @@ const Navbar = () => {
     <div className="sticky top-0 md:static">
       <nav className="flex justify-between items-center dark:text-white text-gray-700 py-4 px-8 md:px-40  md:mx-10  bg-white dark:bg-black z-50">
         <a
-          className=" font-semibold text-lg hover:text-theme-blue"
+          className=" font-semibold text-lg  group "
           target="_blank"
           href="https://therinkit-linkit.vercel.app/"
         >
-          <span className="text-theme-blue">@</span>
-          therinkit
+          <span className="text-theme-blue group-hover:text-gray-700 dark:group-hover:text-white ">
+            @
+          </span>
+          <span className="group-hover:text-theme-blue">therinkit</span>
         </a>
         <ul className="hidden xl:flex items-center gap-6 font-semibold text-base">
           <li className="hover:text-theme-blue cursor-pointer ">
