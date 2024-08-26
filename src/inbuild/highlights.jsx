@@ -11,9 +11,9 @@ const Highlights = () => {
       </div>
       <div className="mt-3">
         <div className="border-b-2 dark:border-white/30"></div>
-        <div className=" divide-y-2 dark:divide-white/30">
+        <div className=" divide-y-2 dark:divide-white/30 px-2 md:px-0">
           <div>
-            <div className=" py-4 text-center  md:text-start">
+            <div className=" py-4 text-justify ">
               I'm currently on a{" "}
               <span className=" font-bold text-gray-500 dark:text-white ">
                 100 Days of Code
@@ -46,7 +46,7 @@ const Highlights = () => {
             </div>
           </div>
           <div>
-            <div className=" py-4 text-center  md:text-start">
+            <div className=" py-4 text-justify ">
               I created my{" "}
               <span className=" font-bold text-gray-500 dark:text-white ">
                 first website
@@ -73,7 +73,7 @@ const Highlights = () => {
             </div>
           </div>
           <div>
-            <div className=" py-4 text-center  md:text-start">
+            <div className=" py-4 text-justify ">
               I started learning programming with{" "}
               <span className=" font-bold text-gray-500 dark:text-white ">
                 Java
