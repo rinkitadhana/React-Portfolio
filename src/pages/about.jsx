@@ -75,40 +75,43 @@ const About = () => {
               src="/IMG/dp2.jpg"
             />
           </div>
-          <div className=" my-2 md:text-start text-justify mt-6 ">
-            Hey, I'm Rinkit Adhana, a third-year student exploring the field of
-            engineering. I live in Delhi, India, and I'm a full-stack developer
-            who loves building things and learning something new every day from
-            them. I mainly work with React and Tailwind for frontend development
-            and Express and MongoDB for backend. As a computer science student,
-            I'm also skilled in data structures and algorithms and practice my
-            problem-solving skills daily. I'm looking for opportunities in both
-            web development and software engineering roles.
-          </div>
-          <div className=" my-2 md:text-start text-justify ">
-            With a strong foundation in various technologies, I have
-            participated in multiple hackathons where I implemented innovative
-            ideas using different tech stacks. I also earned some exciting
-            merchandise and prizes, including{" "}
-            <a
-              href="https://github.com/rinkitadhana/Certificates"
-              target="_blank"
-              className="font-semibold hover:underline text-blue-500"
-            >
-              Certificates
-            </a>
-            . These experiences highlight my ability to work as a team player
-            and lead a team effectively. I've successfully worked under various
-            circumstances and tight timelines, adapting quickly to ensure the
-            success of every project.
-          </div>
-          <div className=" my-2 md:text-start text-justify ">
-            Besides coding, I'm also a volleyball player on my college team,
-            which has taught me how to effectively work with any team in any
-            situation. Additionally, I've been a member of various societies and
-            attended several orientations, which provided me with a broad
-            understanding of how things work in computer science and helped me
-            explore this field more deeply.
+          <div className="px-2 md:px-0">
+            <div className=" my-2 md:text-start text-justify mt-6 ">
+              Hey, I'm Rinkit Adhana, a third-year student exploring the field
+              of engineering. I live in Delhi, India, and I'm a full-stack
+              developer who loves building things and learning something new
+              every day from them. I mainly work with React and Tailwind for
+              frontend development and Express and MongoDB for backend. As a
+              computer science student, I'm also skilled in data structures and
+              algorithms and practice my problem-solving skills daily. I'm
+              looking for opportunities in both web development and software
+              engineering roles.
+            </div>
+            <div className=" my-2 md:text-start text-justify ">
+              With a strong foundation in various technologies, I have
+              participated in multiple hackathons where I implemented innovative
+              ideas using different tech stacks. I also earned some exciting
+              merchandise and prizes, including{" "}
+              <a
+                href="https://github.com/rinkitadhana/Certificates"
+                target="_blank"
+                className="font-semibold hover:underline text-blue-500"
+              >
+                Certificates
+              </a>
+              . These experiences highlight my ability to work as a team player
+              and lead a team effectively. I've successfully worked under
+              various circumstances and tight timelines, adapting quickly to
+              ensure the success of every project.
+            </div>
+            <div className=" my-2 md:text-start text-justify ">
+              Besides coding, I'm also a volleyball player on my college team,
+              which has taught me how to effectively work with any team in any
+              situation. Additionally, I've been a member of various societies
+              and attended several orientations, which provided me with a broad
+              understanding of how things work in computer science and helped me
+              explore this field more deeply.
+            </div>
           </div>
         </div>
         <div>

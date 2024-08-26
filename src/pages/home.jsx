@@ -27,7 +27,7 @@ const Home = () => {
             <div className="text-center font-bold text-lg mt-1 md:hidden">
               A <span className=" text-pink-500">Full Stack</span> Engineer
             </div>
-            <div className=" md:mt-6 mt-4 text-justify  md:px-6 px-3 hidden md:block">
+            <div className=" md:mt-6 mt-4 text-justify  px-6 ">
               I'm currently in my{" "}
               <span className=" font-bold text-gray-500 dark:text-white">
                 Third year
@@ -70,10 +70,12 @@ const Home = () => {
               hope you like it <span className=" text-pink-500">:)</span>
             </div>
           </div>
-          <Chat />
-          <Skills />
-          <SelectedProjects />
-          <Highlights />
+          <div>
+            <Chat />
+            <Skills />
+            <SelectedProjects />
+            <Highlights />
+          </div>
         </div>
       </div>
     </>
