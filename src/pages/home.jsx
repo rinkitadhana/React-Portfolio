@@ -13,8 +13,7 @@ const Home = () => {
           <div>
             <h1 className=" text-gray-700  dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
               <span>
-                Hola, I am{" "}
-                <span className="text-theme-blue">Rinkit Adhana</span>
+                Hola, I'm <span className="text-theme-blue">Rinkit Adhana</span>
               </span>
             </h1>
             <div className="hidden md:block text-center mt-2 text-lg font-semibold">
@@ -50,7 +49,7 @@ const Home = () => {
                 Express and MongoDB
               </span>{" "}
               for the backend. I have created many cool projects with these
-              technologies. , which you can view in the "
+              technologies, which you can view in the "
               <span className=" font-bold text-gray-500 dark:text-white">
                 Projects
               </span>
