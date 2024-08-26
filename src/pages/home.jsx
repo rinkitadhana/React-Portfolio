@@ -11,7 +11,7 @@ const Home = () => {
       <div className=" text-gray-700 dark:text-white flex justify-center mt-2">
         <div className="md:w-3/5 ">
           <div>
-            <h1 className=" text-gray-700 px-2 md:px-0 dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
+            <h1 className=" text-gray-700  dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
               <span>
                 Hola, I am{" "}
                 <span className="text-theme-blue">Rinkit Adhana</span>
@@ -27,7 +27,7 @@ const Home = () => {
             <div className="text-center font-bold text-lg mt-1 md:hidden">
               A <span className=" text-pink-500">Full Stack</span> Engineer
             </div>
-            <div className=" md:mt-6 mt-4 text-justify  md:px-6 px-3">
+            <div className=" md:mt-6 mt-4 text-justify  md:px-6 px-3 hidden md:block">
               I'm currently in my{" "}
               <span className=" font-bold text-gray-500 dark:text-white">
                 Third year
