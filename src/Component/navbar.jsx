@@ -46,24 +46,28 @@ const Navbar = () => {
           style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
         >
           <Link
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
             to="/"
             className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer"
           >
             <li>Home</li>
           </Link>
           <Link
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
             to="/about"
             className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer"
           >
             <li>About</li>
           </Link>
           <Link
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
             to="/project"
             className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer"
           >
             <li>Projects</li>
           </Link>
           <Link
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
             to="/blog"
             className="list-none w-full text-center p-4 hover:bg-theme-blue hover:text-white transition-all cursor-pointer"
           >
