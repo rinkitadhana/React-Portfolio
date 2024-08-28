@@ -61,7 +61,7 @@ const Home = () => {
                 LeetCode profile
               </span>
               .
-              <div className=" flex flex-row gap-1 items-center my-2 group cursor-pointer">
+              <div className=" flex flex-row gap-1 items-center my-2 group cursor-pointer w-fit">
                 <Link
                   to="/about"
                   className=" font-bricolage font-semibold group-hover:underline transition-all "
