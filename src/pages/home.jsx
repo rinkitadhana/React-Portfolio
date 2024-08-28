@@ -62,12 +62,12 @@ const Home = () => {
               </span>
               .
               <div className=" flex flex-row gap-1 items-center my-2 group cursor-pointer w-fit">
-                <Link
-                  to="/about"
+                <a
+                  href="/about"
                   className=" font-bricolage font-semibold group-hover:underline transition-all "
                 >
                   See more about me
-                </Link>
+                </a>
                 <div className=" group-hover:-rotate-45 transition-all">
                   <FaArrowRightLong />
                 </div>
