@@ -2,8 +2,9 @@ import Skills from "../inbuild/skills";
 import SelectedProjects from "../inbuild/selectedProjects";
 import Highlights from "../inbuild/highlights";
 import Chat from "../inbuild/chat";
-import helloInLanguages from "../tool/HelloData";
-import { useEffect, useState } from "react";
+import Intro from "../inbuild/Intro";
+import { Link } from "react-router-dom";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Home = () => {
   return (
@@ -11,18 +12,15 @@ const Home = () => {
       <div className=" text-gray-700 dark:text-white flex justify-center mt-2">
         <div className="md:w-3/5 ">
           <div>
-            <h1 className=" text-gray-700  dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
+            <h1 className=" text-gray-700  md:hidden dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
               <span>
                 Hola, I'm <span className="text-theme-blue">Rinkit Adhana</span>
               </span>
             </h1>
-            <div className="hidden md:block text-center mt-2 text-lg font-semibold">
-              <span className="font-bold text-pink-500 ">
-                Full Stack Developer{" "}
-              </span>
-              and <span className="font-bold text-pink-500">Freelancer</span>{" "}
-              who loves to build and ship stuffs.
+            <div className=" hidden md:block">
+              <Intro />
             </div>
+
             <div className="text-center font-bold text-lg mt-1 md:hidden">
               A <span className=" text-pink-500">Full Stack</span> Engineer
             </div>
@@ -63,14 +61,34 @@ const Home = () => {
                 LeetCode profile
               </span>
               .
+              <div className=" flex flex-row gap-1 items-center my-2 group cursor-pointer">
+                <Link
+                  to="/about"
+                  className=" font-bricolage font-semibold group-hover:underline transition-all "
+                >
+                  See more about me
+                </Link>
+                <div className=" group-hover:-rotate-45 transition-all">
+                  <FaArrowRightLong />
+                </div>
+              </div>
             </div>
-            <div className=" text-center mt-3 font-bricolage font-semibold text-sm md:text-base">
-              Explore my <span className="text-theme-blue">portfolio</span>. I
-              hope you like it <span className=" text-pink-500">:)</span>
+
+            <div className=" text-center mt-3 font-bricolage font-semibold">
+              Explore my{" "}
+              <Link to="/" className="text-theme-blue hover:underline">
+                portfolio
+              </Link>
+              . I hope you like it <span className=" text-pink-500">:)</span>
             </div>
           </div>
+
+          <div></div>
           <div>
-            <Chat />
+            <div className="md:hidden">
+              <Chat />
+            </div>
+
             <Skills />
             <SelectedProjects />
             <Highlights />

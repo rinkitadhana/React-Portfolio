@@ -8,6 +8,7 @@ import { PiDotsThreeOutlineDuotone } from "react-icons/pi";
 import {
   RiHtml5Fill,
   RiJavaLine,
+  RiNextjsLine,
   RiReactjsLine,
   RiTailwindCssFill,
 } from "react-icons/ri";
@@ -17,9 +18,15 @@ import {
   SiMongodb,
   SiNetlify,
   SiPostman,
+  SiTypescript,
   SiVercel,
 } from "react-icons/si";
-import { TbBrandCpp, TbHexagonLetterC, TbHexagonLetterM } from "react-icons/tb";
+import {
+  TbBrandCpp,
+  TbBrandTypescript,
+  TbHexagonLetterC,
+  TbHexagonLetterM,
+} from "react-icons/tb";
 import { VscTerminalLinux, VscTools } from "react-icons/vsc";
 const Skills = () => {
   return (
@@ -41,6 +48,10 @@ const Skills = () => {
             <DiJavascript /> JavaScript
           </div>
           <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
+            <TbBrandTypescript />
+            TypeScript
+          </div>
+          <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
             <RiTailwindCssFill /> Tailwind
           </div>
           <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
@@ -54,7 +65,11 @@ const Skills = () => {
           </div>
 
           <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
-            <RiReactjsLine /> React
+            <RiReactjsLine /> ReactJs
+          </div>
+          <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
+            <RiNextjsLine />
+            NextJs
           </div>
           <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
             <IoLogoNodejs /> NodeJS
@@ -66,12 +81,16 @@ const Skills = () => {
           <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
             <SiPostman /> Postman
           </div>
+          <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
+            <SiInsomnia /> Insomnia
+          </div>
           <div className=" flex flex-row gap-1 rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
             <FiDatabase /> Database
           </div>
           <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
             <BiLogoPostgresql /> PostgreSQL
           </div>
+
           <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
             <SiMongodb /> MongoDB
           </div>
@@ -92,9 +111,6 @@ const Skills = () => {
             <TbBrandCpp /> C++
           </div>
 
-          <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
-            <SiInsomnia /> Insomnia
-          </div>
           <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer">
             <VscTerminalLinux /> Linux
           </div>
