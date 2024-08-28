@@ -68,7 +68,7 @@ const Intro = () => {
           <a
             href="https://therinkit-linkit.vercel.app/"
             target="_blank"
-            className=" hover:underline mt-1"
+            className=" hover:underline mt-1 w-fit"
           >
             therinkit-linkit.vercel.app
           </a>
