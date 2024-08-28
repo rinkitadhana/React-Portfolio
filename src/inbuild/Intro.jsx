@@ -16,7 +16,7 @@ const Intro = () => {
           <div className=" text-5xl font-bold font-bricolage">
             <span className=" text-theme-blue">Rinkit</span> Adhana
           </div>
-          <div className=" text-lg font-semibold font-bricolage text-gray-600">
+          <div className=" text-lg font-semibold font-bricolage text-gray-600 dark:text-white">
             <span className=" text-pink-500">Full-Stack Developer</span> and{" "}
             <span className=" text-pink-500">Freelancer</span>, who loves to
             build and ship stuffs.
