@@ -13,7 +13,7 @@ const Intro = () => {
           className=" border md:size-40 rounded-full hover:scale-105  transition delay-100"
         />
         <div className=" flex flex-col">
-          <div className=" text-5xl font-bold font-bricolage">
+          <div className=" text-4xl font-bold font-bricolage">
             <span className=" text-theme-blue">Rinkit</span> Adhana
           </div>
           <div className=" text-lg font-semibold font-bricolage text-gray-600 dark:text-white">
