@@ -6,18 +6,25 @@ import { SiBuymeacoffee, SiLeetcode } from "react-icons/si";
 
 const Intro = () => {
   return (
-    <div className="md:px-6 px-3 mt-6">
+    <div className="md:px-6 px-3 md:mt-6 mt-3 ">
       <div className=" flex flex-row gap-3 items-center">
-        <img src="./IMG/dp2.jpg" className=" border md:size-40 rounded-full" />
+        <img
+          src="./IMG/dp2.jpg"
+          className=" border md:size-40 size-32 rounded-full"
+        />
         <div className=" flex flex-col">
-          <div className=" text-4xl font-bold font-bricolage">
+          <div className=" md:text-4xl text-2xl font-bold font-bricolage">
             <span className=" text-theme-blue">Rinkit</span> Adhana
           </div>
-          <div className=" text-lg font-semibold font-bricolage text-gray-600 dark:text-white">
+          <div className=" md:text-lg hidden md:block text-sm font-semibold font-bricolage text-gray-600 dark:text-white">
             <span className=" text-pink-500">Full-Stack Developer</span> and{" "}
-            <span className=" text-pink-500">Freelancer</span>, who loves to
-            build and ship stuffs.
+            <span className=" text-pink-500">Freelancer</span>, always building
+            and learning.
           </div>
+          <div className=" md:hidden font-semibold">
+            A <span className=" text-pink-500">Full-Stack Developer</span>.
+          </div>
+
           <div className="flex flex-row gap-2 text-2xl mt-1">
             <a
               href="https://x.com/rnkktt"

@@ -12,16 +12,16 @@ const Home = () => {
       <div className=" text-gray-700 dark:text-white flex justify-center mt-2">
         <div className="md:w-3/5 ">
           <div>
-            <h1 className=" text-gray-700  md:hidden dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
+            <h1 className=" text-gray-700  hidden dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
               <span>
                 Hola, I'm <span className="text-theme-blue">Rinkit Adhana</span>
               </span>
             </h1>
-            <div className=" hidden md:block">
+            <div className="">
               <Intro />
             </div>
 
-            <div className="text-center font-bold text-lg mt-1 md:hidden">
+            <div className="text-center font-bold text-lg mt-1 hidden">
               A <span className=" text-pink-500">Full Stack</span> Engineer
             </div>
             <div className=" md:mt-6 mt-4 text-justify  px-6 ">
@@ -85,10 +85,6 @@ const Home = () => {
 
           <div></div>
           <div>
-            <div className="md:hidden">
-              <Chat />
-            </div>
-
             <Skills />
             <SelectedProjects />
             <Highlights />
