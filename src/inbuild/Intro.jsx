@@ -8,10 +8,7 @@ const Intro = () => {
   return (
     <div className="md:px-6 px-3 mt-6">
       <div className=" flex flex-row gap-3 items-center">
-        <img
-          src="./IMG/dp2.jpg"
-          className=" border md:size-40 rounded-full hover:scale-105  transition delay-100"
-        />
+        <img src="./IMG/dp2.jpg" className=" border md:size-40 rounded-full" />
         <div className=" flex flex-col">
           <div className=" text-4xl font-bold font-bricolage">
             <span className=" text-theme-blue">Rinkit</span> Adhana

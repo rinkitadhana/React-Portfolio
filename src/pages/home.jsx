@@ -35,7 +35,7 @@ const Home = () => {
               </span>{" "}
               at IPU, Delhi. Although I am familiar with many technologies, as
               listed in the "
-              <span className=" font-bold text-gray-500 dark:text-white">
+              <span className=" font-bold text-theme-blue dark:text-white">
                 Skills and Tools
               </span>
               " section, I primarily work with{" "}
@@ -48,7 +48,7 @@ const Home = () => {
               </span>{" "}
               for the backend. I have created many cool projects with these
               technologies, which you can view in the "
-              <span className=" font-bold text-gray-500 dark:text-white">
+              <span className=" font-bold text-theme-blue dark:text-white">
                 Projects
               </span>
               " section . Besides development, I am also skilled in{" "}
