@@ -25,39 +25,43 @@ const Intro = () => {
             <a
               href="https://x.com/rnkktt"
               target="_blank"
-              className="hover:text-theme-blue"
+              className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
             >
               <FaXTwitter />
             </a>
             <a
               href="https://github.com/rinkitadhana"
               target="_blank"
-              className="hover:text-theme-blue"
+              className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
             >
               <LuGithub />
             </a>
             <a
               href="https://www.instagram.com/rnkktt/"
               target="_blank"
-              className="hover:text-theme-blue"
+              className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
             >
               <FaInstagram />
             </a>
             <a
               href="https://www.linkedin.com/in/rinkitadhana/"
               target="_blank"
-              className="hover:text-theme-blue"
+              className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
             >
               <FiLinkedin />
             </a>
             <a
               href="https://leetcode.com/u/therinkit/"
               target="_blank"
-              className="hover:text-theme-blue"
+              className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
             >
               <SiLeetcode />
             </a>
-            <a href="" target="_blank" className="hover:text-theme-blue">
+            <a
+              href=""
+              target="_blank"
+              className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
+            >
               <SiBuymeacoffee />
             </a>
           </div>
