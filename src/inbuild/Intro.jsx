@@ -6,7 +6,7 @@ import { SiBuymeacoffee, SiLeetcode } from "react-icons/si";
 
 const Intro = () => {
   return (
-    <div className="md:px-6 px-3 md:mt-6 mt-3 ">
+    <div className="md:px-6 px-3 md:mt-6 ">
       <div className=" flex flex-row gap-3 items-center">
         <img
           src="./IMG/dp2.jpg"

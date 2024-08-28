@@ -64,7 +64,7 @@ const Home = () => {
               <div className=" flex flex-row gap-1 items-center my-2 group cursor-pointer w-fit">
                 <Link
                   to="/about"
-                  className=" font-bricolage font-semibold group-hover:underline transition-all "
+                  className=" font-bricolage font-semibold text-lg group-hover:underline transition-all "
                 >
                   See more about me
                 </Link>
