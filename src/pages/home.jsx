@@ -74,7 +74,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className=" text-center mt-3 font-bricolage font-semibold">
+            <div className=" text-center mt-3 font-bricolage font-semibold hidden md:block">
               Explore my{" "}
               <Link to="/" className="text-theme-blue hover:underline">
                 portfolio
