@@ -5,7 +5,7 @@ const About = () => {
         <div className="flex flex-row justify-start ">
           <div className=" text-2xl font-bricolage font-semibold">About Me</div>
         </div>
-        <div className="px-2 mt-6 md:mt-2 font-popins">
+        <div className="px-2 mt-6 md:mt-2 ">
           <div className=" flex md:flex-row flex-col-reverse gap-2 items-center justify-between ">
             <div className=" md:text-start text-start w-full hidden md:block ">
               <ul className="text-[1.101rem]   ">

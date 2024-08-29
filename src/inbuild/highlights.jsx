@@ -9,7 +9,7 @@ const Highlights = () => {
         Highlights
         <BsFeather />.
       </div>
-      <div className="mt-3 font-popins">
+      <div className="mt-3 ">
         <div className="border-b-2 dark:border-white/30 "></div>
         <div className=" divide-y-2 dark:divide-white/30 px-2 md:px-0">
           <div>
