@@ -24,7 +24,7 @@ const Home = () => {
             <div className="text-center font-bold text-lg mt-1 hidden">
               A <span className=" text-pink-500">Full Stack</span> Engineer
             </div>
-            <div className=" md:mt-6 mt-4 text-justify  px-6 ">
+            <div className=" md:mt-6 mt-4 text-justify font-popins  px-6 ">
               I'm currently in my{" "}
               <span className=" font-bold text-gray-500 dark:text-white">
                 Third year

@@ -4,7 +4,7 @@ import { IoIosLink } from "react-icons/io";
 import { Link } from "react-router-dom";
 const ProjectBox = (props) => {
   return (
-    <div className=" rounded-lg  dark:bg-white/20  shadow-md shadow-gray-200 border-2 border-gray-100 dark:shadow-none dark:border-none mt-4 p-2 flex flex-col gap-2">
+    <div className=" rounded-lg  dark:bg-white/20  shadow-md shadow-gray-200 border-2 border-gray-100 dark:shadow-none dark:border-none mt-4 p-2 flex flex-col gap-2 font-popins">
       <div className="flex flex-row gap-4 items-center ">
         <img className=" size-20 rounded-lg" src={`${props.img}`} alt="oh no" />
 

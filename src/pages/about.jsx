@@ -5,7 +5,7 @@ const About = () => {
         <div className="flex flex-row justify-start ">
           <div className=" text-2xl font-bricolage font-semibold">About Me</div>
         </div>
-        <div className="px-2 mt-6 md:mt-2">
+        <div className="px-2 mt-6 md:mt-2 font-popins">
           <div className=" flex md:flex-row flex-col-reverse gap-2 items-center justify-between ">
             <div className=" md:text-start text-start w-full hidden md:block ">
               <ul className="text-[1.101rem]   ">
@@ -71,12 +71,12 @@ const About = () => {
               </ul>
             </div>
             <img
-              className=" border md:size-56 rounded-full hover:scale-105  transition delay-100"
+              className=" border md:size-56 rounded-full md:hover:scale-105  transition delay-100"
               src="/IMG/dp2.jpg"
             />
           </div>
           <div className="px-2 md:px-0">
-            <div className=" my-2 md:text-start text-justify mt-6 ">
+            <div className=" my-4 md:text-start text-justify mt-6 ">
               Hey, I'm Rinkit Adhana, a third-year student exploring the field
               of engineering. I live in Delhi, India, and I'm a full-stack
               developer who loves building things and learning something new
@@ -87,7 +87,7 @@ const About = () => {
               looking for opportunities in both web development and software
               engineering roles.
             </div>
-            <div className=" my-2 md:text-start text-justify ">
+            <div className=" my-4 md:text-start text-justify ">
               With a strong foundation in various technologies, I have
               participated in multiple hackathons where I implemented innovative
               ideas using different tech stacks. I also earned some exciting
@@ -104,7 +104,7 @@ const About = () => {
               various circumstances and tight timelines, adapting quickly to
               ensure the success of every project.
             </div>
-            <div className=" my-2 md:text-start text-justify ">
+            <div className=" my-4 md:text-start text-justify ">
               Besides coding, I'm also a volleyball player on my college team,
               which has taught me how to effectively work with any team in any
               situation. Additionally, I've been a member of various societies
