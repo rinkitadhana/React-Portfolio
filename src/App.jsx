@@ -27,7 +27,11 @@ function App() {
                 className=" top-3 text-xl cursor-pointer text-gray-600 dark:text-white hover:text-theme-blue "
                 onClick={toggleDarkMode}
               >
-                {darkMode ? <FaSun /> : <FaMoon />}
+                {darkMode ? (
+                  <img src="./icon/sun.png" className="size-6" />
+                ) : (
+                  <img src="./icon/full-moon.png" className="size-6" />
+                )}
               </button>
             </div>
 
