@@ -16,6 +16,16 @@ const Project = () => {
         </div>
         <div className="px-2.5">
           <ProjectBox
+            img="./project/promptopia.svg"
+            title="Promptopia"
+            status="Building"
+            statusColor="text-blue-500"
+            content="A full-stack Next.js project for sharing your AI prompts and using others' shared prompts, featuring Google authentication, profile management, and options to like, edit, and delete prompts. It also includes advanced search and filtering capabilities to easily find and manage prompts."
+            url="https://therinkit-promptopia.vercel.app"
+            github="https://github.com/rinkitadhana/Promptopia"
+            skill={["NextJS", "MongoDB", "Tailwind"]}
+          />
+          <ProjectBox
             img="./project/Anecdot.png"
             title="Anecdot."
             status="Building"
@@ -64,16 +74,6 @@ const Project = () => {
           />
 
           <ProjectBox
-            img="./project/TTS.png"
-            title="Text to Speech"
-            status="Running"
-            statusColor="text-green-500"
-            content="I created this simple text-to-speech project to refine my JavaScript skills. The special feature of this project is its UI, and it is fully functional. Additionally, it integrates various speech synthesis options to enhance user interaction."
-            url="https://ttsrinkit.netlify.app/"
-            github="https://github.com/rinkitadhana/text-to-speech"
-            skill={["HTML", "Javascript", "Tailwind"]}
-          />
-          <ProjectBox
             img="./project/LyteRate.png"
             title="LyteRate"
             status="Running"
@@ -94,12 +94,22 @@ const Project = () => {
             skill={["HTML", "CSS", "Javascript", "Research"]}
           />
           <ProjectBox
+            img="./project/TTS.png"
+            title="Text to Speech"
+            status="Running"
+            statusColor="text-green-500"
+            content="I created this simple text-to-speech project to refine my JavaScript skills. The special feature of this project is its UI, and it is fully functional. Additionally, it integrates various speech synthesis options to enhance user interaction."
+            url="https://ttsrinkit.netlify.app/"
+            github="https://github.com/rinkitadhana/text-to-speech"
+            skill={["HTML", "Javascript", "Tailwind"]}
+          />
+          <ProjectBox
             img="./project/Snake.png"
             title="Snake Game"
             status="Running"
             statusColor="text-green-500"
             content="I made this snake game in my first year just for fun. At that time, I was a big Java fan and created this project using Java and JavaFX. This project really helped me deepen my understanding of object-oriented programming."
-            url="https://github.com/rinkitadhana/SnakeByJava"
+            remove={true}
             github="https://github.com/rinkitadhana/SnakeByJava"
             skill={["Java", "JavaFX"]}
           />
@@ -109,7 +119,7 @@ const Project = () => {
             status="Running"
             statusColor="text-green-500"
             content="I created this stopwatch to customize its functionality. It was built using only Java and JavaFX and is fully operational. This project helped me enhance my skills in Java programming and GUI design"
-            url="https://github.com/rinkitadhana/StopWatchByJava"
+            remove={true}
             github="https://github.com/rinkitadhana/StopWatchByJava"
             skill={["Java", "JavaFX"]}
           />

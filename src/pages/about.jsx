@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className=" page transition-opacity duration-500 opacity-100 text-gray-700 dark:text-white flex flex-col md:flex-row  justify-center mt-2 ">
+    <div className=" page transition-opacity duration-500 opacity-100 text-gray-700 dark:text-white flex flex-col md:flex-row  justify-center mt-2  ">
       <div className="md:w-3/5 px-2  ">
         <div className="flex flex-row justify-start ">
           <div className=" text-2xl font-bricolage font-semibold">About Me</div>
@@ -75,7 +75,7 @@ const About = () => {
               src="/IMG/dp2.jpg"
             />
           </div>
-          <div className="px-2 md:px-0">
+          <div className="px-2 md:px-0 ">
             <div className=" my-4 md:text-start text-justify mt-6 ">
               Hey, I'm Rinkit Adhana, a third-year student exploring the field
               of engineering. I live in Delhi, India, and I'm a full-stack

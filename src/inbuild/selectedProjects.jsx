@@ -14,22 +14,14 @@ const SelectedProjects = () => {
           <FaRegFile />.
         </div>
         <ProjectBox
-          img="./project/Anecdot.png"
-          title="Anecdot."
+          img="./project/promptopia.svg"
+          title="Promptopia"
           status="Building"
           statusColor="text-blue-500"
-          content="A full stack blogging website built using the MERN stack, offering a variety of features to enhance user experience. The website allows users to manage their profiles, and engage through comments and likes. It also includes user authentication and real-time updates."
-          url="https://therinkit-building.vercel.app"
-          github="https://github.com/rinkitadhana/Anecdot"
-          skill={[
-            "React",
-            "Flowbite",
-            "Tailwind",
-            "Node",
-            "Express",
-            "Mongo",
-            "Redux Toolkit",
-          ]}
+          content="A full-stack Next.js project for sharing your AI prompts and using others' shared prompts, featuring Google authentication, profile management, and options to like, edit, and delete prompts. It also includes advanced search and filtering capabilities to easily find and manage prompts."
+          url="https://therinkit-promptopia.vercel.app"
+          github="https://github.com/rinkitadhana/Promptopia"
+          skill={["NextJS", "MongoDB", "Tailwind"]}
         />
         <ProjectBox
           img="./project/LinkIt.png"

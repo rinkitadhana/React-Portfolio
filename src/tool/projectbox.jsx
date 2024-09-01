@@ -24,19 +24,24 @@ const ProjectBox = (props) => {
 
             <div className="flex justify-between">
               <div className="text-lg flex flex-row gap-1.5">
-                <Link
-                  to={`${props.url}`}
-                  target="_blank"
-                  className=" cursor-pointer"
-                >
-                  <IoIosLink className="text-blue-500" />
-                </Link>
+                {props.remove ? (
+                  <></>
+                ) : (
+                  <Link
+                    to={`${props.url}`}
+                    target="_blank"
+                    className=" cursor-pointer"
+                  >
+                    <IoIosLink className="text-blue-500 hover:scale-125 hover:text-blue-700 transition-transform" />
+                  </Link>
+                )}
+
                 <Link
                   to={`${props.github}`}
                   target="_blank"
                   className=" cursor-pointer"
                 >
-                  <FiGithub />
+                  <FiGithub className="hover:scale-125  transition-transform" />
                 </Link>
               </div>
             </div>
