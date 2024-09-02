@@ -29,7 +29,7 @@ const Intro = () => {
             <a
               href="https://x.com/rnkktt"
               target="_blank"
-              className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
+              className="  hover:scale-125 transition-transform delay-100"
             >
               <FaXTwitter />
             </a>
@@ -72,7 +72,7 @@ const Intro = () => {
           <a
             href="https://therinkit-linkit.vercel.app/"
             target="_blank"
-            className=" hover:underline mt-1 w-fit"
+            className=" hover:underline mt-1 w-fit "
           >
             therinkit-linkit.vercel.app
           </a>

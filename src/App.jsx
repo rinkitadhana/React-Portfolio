@@ -3,14 +3,16 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import About from "./pages/about";
 import Project from "./pages/project";
 import Blog from "./pages/blog";
-import { FaMoon, FaSun } from "react-icons/fa";
 import Navbar from "./Component/navbar";
 import Footer from "./Component/footer";
 import { useState } from "react";
 import ErrorMessage from "./inbuild/404";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const systemPrefersDark = window.matchMedia(
+    "(prefers-color-scheme: dark)"
+  ).matches;
+  const [darkMode, setDarkMode] = useState(systemPrefersDark);
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
