@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const scrollToTop = () => {
@@ -28,19 +28,39 @@ const Navbar = () => {
         </a>
         <ul className="hidden xl:flex items-center gap-6 font-semibold text-base">
           <li className="hover:text-theme-blue cursor-pointer ">
-            <Link to="/">home</Link>
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "text-theme-blue" : "")}
+            >
+              home
+            </NavLink>
           </li>
           <li className="hover:text-theme-blue cursor-pointer">
             {" "}
-            <Link to="/about">about</Link>
+            <NavLink
+              to="/about"
+              className={({ isActive }) => (isActive ? "text-theme-blue" : "")}
+            >
+              about
+            </NavLink>
           </li>
           <li className="hover:text-theme-blue cursor-pointer">
             {" "}
-            <Link to="/project">projects</Link>
+            <NavLink
+              to="/project"
+              className={({ isActive }) => (isActive ? "text-theme-blue" : "")}
+            >
+              projects
+            </NavLink>
           </li>
           <li className="hover:text-theme-blue cursor-pointer">
             {" "}
-            <Link to="/blog">blogs</Link>
+            <NavLink
+              to="/blog"
+              className={({ isActive }) => (isActive ? "text-theme-blue" : "")}
+            >
+              blogs
+            </NavLink>
           </li>
         </ul>
 
