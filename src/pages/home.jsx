@@ -7,6 +7,9 @@ import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Home = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <div className=" text-gray-700 dark:text-white flex justify-center mt-2">
@@ -63,6 +66,7 @@ const Home = () => {
               .
               <div className=" flex flex-row gap-1 items-center my-2 group cursor-pointer w-fit">
                 <Link
+                  onClick={scrollToTop}
                   to="/about"
                   className=" font-bricolage font-semibold text-lg group-hover:underline transition-all "
                 >
