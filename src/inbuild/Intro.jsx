@@ -29,7 +29,7 @@ const Intro = () => {
             <a
               href="https://x.com/rnkktt"
               target="_blank"
-              className="  hover:text-theme-blue scale-125 transition-transform delay-100"
+              className=" hover:text-theme-blue scale-125 transition-transform delay-100"
             >
               <FaXTwitter />
             </a>
