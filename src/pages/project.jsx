@@ -63,6 +63,16 @@ const Project = () => {
             skill={["React", "Tailwind", "Node", "AI"]}
           />
           <ProjectBox
+            img="./project/TTS.png"
+            title="VoiceForge"
+            status="Running"
+            statusColor="text-green-500"
+            content="VoiceForge brings your words to life with cutting-edge AI technology, creating natural-sounding voices for various applications. Whether you're developing virtual assistants, enhancing video games, or producing content, VoiceForge offers a diverse range of customizable voices that seamlessly integrate into any project."
+            url="https://therinkit-voiceforge.vercel.app/"
+            github="https://github.com/rinkitadhana/text-to-speech"
+            skill={["NextJs", "Tailwind", "V0"]}
+          />
+          <ProjectBox
             img="./project/11Hack.png"
             title="11Hack"
             status="Building"
@@ -93,16 +103,7 @@ const Project = () => {
             github="https://github.com/rinkitadhana/Xylem-Research-Paper"
             skill={["HTML", "CSS", "Javascript", "Research"]}
           />
-          <ProjectBox
-            img="./project/TTS.png"
-            title="Text to Speech"
-            status="Running"
-            statusColor="text-green-500"
-            content="I created this simple text-to-speech project to refine my JavaScript skills. The special feature of this project is its UI, and it is fully functional. Additionally, it integrates various speech synthesis options to enhance user interaction."
-            url="https://ttsrinkit.netlify.app/"
-            github="https://github.com/rinkitadhana/text-to-speech"
-            skill={["HTML", "Javascript", "Tailwind"]}
-          />
+
           <ProjectBox
             img="./project/Snake.png"
             title="Snake Game"
