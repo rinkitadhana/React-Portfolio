@@ -1,7 +1,7 @@
 import Skills from "../inbuild/skills";
 import SelectedProjects from "../inbuild/selectedProjects";
 import Highlights from "../inbuild/highlights";
-import Chat from "../inbuild/chat";
+import { motion } from "framer-motion";
 import Intro from "../inbuild/Intro";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -11,22 +11,17 @@ const Home = () => {
     window.scrollTo(0, 0);
   };
   return (
-    <>
-      <div className=" text-gray-700 dark:text-white flex justify-center mt-2">
-        <div className="md:w-3/5 ">
+    <div className=" text-gray-700 dark:text-white flex justify-center mt-2">
+      <div className="md:w-3/5 ">
+        <div>
+          <Intro />
+        </div>
+        <motion.div
+          initial={{ opacity: 0, y: -30 }} // Start with 0 opacity and slightly above the final position
+          animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
+          transition={{ duration: 0.6 }} // Duration of the animation
+        >
           <div>
-            <h1 className=" text-gray-700  hidden dark:text-white text-center md:text-6xl md:mt-8 text-3xl font-bold font-bricolage">
-              <span>
-                Hola, I'm <span className="text-theme-blue">Rinkit Adhana</span>
-              </span>
-            </h1>
-            <div className="">
-              <Intro />
-            </div>
-
-            <div className="text-center font-bold text-lg mt-1 hidden">
-              A <span className=" text-pink-500">Full Stack</span> Engineer
-            </div>
             <div className=" md:mt-6 mt-4 text-justify font-popins  px-6 ">
               I'm currently in my{" "}
               <span className=" font-bold text-gray-500 dark:text-white">
@@ -86,16 +81,16 @@ const Home = () => {
               . I hope you like it <span className=" text-pink-500">:)</span>
             </div>
           </div>
+        </motion.div>
 
-          <div></div>
-          <div>
-            <Skills />
-            <SelectedProjects />
-            <Highlights />
-          </div>
+        <div></div>
+        <div>
+          <Skills />
+          <SelectedProjects />
+          <Highlights />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

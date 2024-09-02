@@ -4,6 +4,7 @@ import { FaRegPlayCircle } from "react-icons/fa";
 import { FaBootstrap, FaCss3Alt, FaGitAlt, FaGithub } from "react-icons/fa6";
 import { FiDatabase, FiFigma } from "react-icons/fi";
 import { IoLogoNodejs } from "react-icons/io5";
+import { motion } from "framer-motion";
 import { PiDotsThreeOutlineDuotone } from "react-icons/pi";
 import {
   RiHtml5Fill,
@@ -18,7 +19,6 @@ import {
   SiMongodb,
   SiNetlify,
   SiPostman,
-  SiTypescript,
   SiVercel,
 } from "react-icons/si";
 import {
@@ -30,7 +30,11 @@ import {
 import { VscTerminalLinux, VscTools } from "react-icons/vsc";
 const Skills = () => {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0, y: -20 }} // Start with 0 opacity and slightly above the final position
+      animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
+      transition={{ duration: 0.6 }} // Duration of the animation
+    >
       <div className="md:px-6 px-3 mt-7">
         <PiDotsThreeOutlineDuotone className=" text-2xl text-pink-500" />
         <div className=" font-bricolage flex items-center   gap-1 text-2xl font-semibold">
@@ -125,7 +129,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </>
+    </motion.div>
   );
 };
 
