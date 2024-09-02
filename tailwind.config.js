@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         bricolage: ["Bricolage Grotesque", "sans-serif"],
         popins: ["Poppins", "sans-serif"],
+        jost: ["Jost", "sans-serif"],
       },
     },
   },

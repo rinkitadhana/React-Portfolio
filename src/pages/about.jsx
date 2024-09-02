@@ -75,8 +75,8 @@ const About = () => {
               src="/IMG/dp2.jpg"
             />
           </div>
-          <div className="px-2 md:px-0 ">
-            <div className=" my-4 md:text-start text-justify mt-6 ">
+          <div className="px-2 md:px-0 font-popins">
+            <div className=" my-4  text-justify mt-6 ">
               Hey, I'm Rinkit Adhana, a third-year student exploring the field
               of engineering. I live in Delhi, India, and I'm a full-stack
               developer who loves building things and learning something new
@@ -87,7 +87,7 @@ const About = () => {
               looking for opportunities in both web development and software
               engineering roles.
             </div>
-            <div className=" my-4 md:text-start text-justify ">
+            <div className=" my-4  text-justify ">
               With a strong foundation in various technologies, I have
               participated in multiple hackathons where I implemented innovative
               ideas using different tech stacks. I also earned some exciting
@@ -104,7 +104,7 @@ const About = () => {
               various circumstances and tight timelines, adapting quickly to
               ensure the success of every project.
             </div>
-            <div className=" my-4 md:text-start text-justify ">
+            <div className=" my-4  text-justify ">
               Besides coding, I'm also a volleyball player on my college team,
               which has taught me how to effectively work with any team in any
               situation. Additionally, I've been a member of various societies

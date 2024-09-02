@@ -3,7 +3,7 @@ import { PiDotsThreeOutlineDuotone } from "react-icons/pi";
 
 const Highlights = () => {
   return (
-    <div className="md:px-6 px-3 mt-7 md:mt-0 ">
+    <div className="md:px-6 px-3 mt-7 md:mt-0  font-popins">
       <PiDotsThreeOutlineDuotone className=" text-2xl text-pink-500" />
       <div className=" font-bricolage flex items-center  gap-1 text-2xl font-semibold">
         Highlights
