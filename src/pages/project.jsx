@@ -63,6 +63,16 @@ const Project = () => {
             skill={["React", "Tailwind", "Node", "AI"]}
           />
           <ProjectBox
+            img="./project/dovien.png"
+            title="Dovien"
+            status="Running"
+            statusColor="text-green-500"
+            content="This is a freelance project I made in my second year, using some basic frontend technologies and got paid for it. I completed it in 2 weeks."
+            url="https://dovien.netlify.app/"
+            github="https://github.com/rinkitadhana/dovien"
+            skill={["HTML", "CSS", "Javascript", "Bootstrap"]}
+          />
+          <ProjectBox
             img="./project/TTS.png"
             title="VoiceForge"
             status="Running"
@@ -71,6 +81,16 @@ const Project = () => {
             url="https://therinkit-voiceforge.vercel.app/"
             github="https://github.com/rinkitadhana/text-to-speech"
             skill={["NextJs", "Tailwind", "V0"]}
+          />
+          <ProjectBox
+            img="./project/Cooldeck.png"
+            title="CoolDeck"
+            status="Running"
+            statusColor="text-green-500"
+            content="This was my first freelance project, which I made for a client in my first year and got paid for it. I used some basic frontend skills. It took me one week to complete the entire project."
+            url="https://cooldeck.netlify.app/"
+            github="https://github.com/rinkitadhana/CoolDeck"
+            skill={["HTML", "CSS", "Javascript", "Bootstrap"]}
           />
           <ProjectBox
             img="./project/11Hack.png"
