@@ -61,7 +61,7 @@ const CertificateBox = ({ title, des, img }) => {
             />
           </Modal>
           <div className=" flex flex-col items-center">
-            <div className=" text-2xl text-center font-bold">{title}</div>
+            <div className=" text-xl text-center font-bold">{title}</div>
             <div className=" text-center text-sm">{des}</div>
           </div>
         </div>
