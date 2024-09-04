@@ -17,7 +17,7 @@ const CertificateBox = ({ title, des, img }) => {
   return (
     <div>
       <div>
-        <div className="flex flex-col gap-2   items-center p-4 box-border font-popins rounded-lg  dark:bg-white/20  shadow-md shadow-gray-300 border-2 border-gray-100 dark:shadow-none dark:border-none ">
+        <div className="flex flex-col gap-2   items-center px-4 py-6 box-border font-popins rounded-lg  dark:bg-white/20 shadow-md shadow-gray-300 border-2 border-gray-100 dark:shadow-none dark:border-none ">
           <motion.div
             whileTap={{ scale: 0.85 }}
             whileHover={{
@@ -41,7 +41,7 @@ const CertificateBox = ({ title, des, img }) => {
                 right: "auto",
                 bottom: "auto",
 
-                marginRight: "-50%",
+                marginRight: "-20%",
                 transform: "translate(-50%, -50%)",
                 padding: "0",
                 border: "none",
@@ -53,6 +53,7 @@ const CertificateBox = ({ title, des, img }) => {
             }}
           >
             <img
+              className="object-fill"
               src={imageUrl}
               alt="Example Fullscreen"
               style={{ width: "100%", height: "auto" }}
@@ -60,7 +61,7 @@ const CertificateBox = ({ title, des, img }) => {
             />
           </Modal>
           <div className=" flex flex-col items-center">
-            <div className=" text-2xl font-bold">{title}</div>
+            <div className=" text-2xl text-center font-bold">{title}</div>
             <div className=" text-center text-sm">{des}</div>
           </div>
         </div>

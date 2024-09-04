@@ -88,6 +88,7 @@ const Home = () => {
         <div>
           <Skills />
           <SelectedProjects />
+          <Certificate />
           <Highlights />
         </div>
       </div>

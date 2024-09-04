@@ -10,7 +10,7 @@ const Highlights = () => {
       animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
       transition={{ duration: 0.6 }} // Duration of the animation
     >
-      <div className="md:px-6 px-3 mt-7 md:mt-0  font-popins">
+      <div className="md:px-6 px-3 mt-7 md:mt-5 font-popins">
         <div className=" font-bricolage flex items-center  gap-1 text-2xl font-semibold">
           Highlights
           <BsFeather />.

@@ -7,85 +7,98 @@ const SelectedCertificate = () => {
   const data = [
     {
       id: 1,
-      img: "./certificates/java-tim.jpg",
-      title: "TITLE1",
-      des: "this is a description",
+      img: "./certificates/Live the code 2.0.png",
+      title: "Live The Code 2.0",
+      des: "",
     },
     {
       id: 2,
-      img: "./certificates/ideate.jpg",
-      title: "TITLE2",
-      des: "this is a description",
+      img: "./certificates/Hack Unicorn Hackathon.png",
+      title: "Hack Unicorn",
+      des: "",
     },
     {
       id: 3,
-      img: "./certificates/Hack3.0.jpg",
-      title: "TITLE3",
-      des: "this is a description",
+      img: "./certificates/Xylem.png",
+      title: "Xylem 2023",
+      des: "",
     },
     {
       id: 4,
-      img: "./certificates/Xylem.png",
-      title: "TITLE3",
-      des: "this is a description",
+      img: "./certificates/Hack3.0.jpg",
+      title: "Hack 3.0",
+      des: "",
     },
     {
       id: 5,
       img: "./certificates/ranga.jpg",
-      title: "TITLE3",
-      des: "this is a description",
+      title: "Java Ranga",
+      des: "",
     },
     {
       id: 6,
       img: "./certificates/mlsa.png",
-      title: "TITLE3",
-      des: "this is a description",
+      title: "Microsoft Learn",
+      des: "",
     },
     {
       id: 7,
       img: "./certificates/MAIT.jpg",
-      title: "TITLE3",
-      des: "this is a description",
+      title: "Pulse MAIT",
+      des: "",
     },
     {
       id: 8,
-      img: "./certificates/Live the code 2.0.png",
-      title: "TITLE3",
-      des: "this is a description",
+      img: "./certificates/java-tim.jpg",
+      title: "Java Tim",
+      des: "",
     },
     {
       id: 9,
-      img: "../certificates/Hack Unicorn Hackathon.png",
-      title: "TITLE3",
-      des: "this is a description",
+      img: "./certificates/ideate.jpg",
+      title: "Ideate BVP",
+      des: "",
     },
     {
       id: 10,
       img: "./certificates/devtown.png",
-      title: "TITLE3",
-      des: "this is a description",
+      title: "Devtown",
+      des: "",
     },
     {
       id: 11,
       img: "../certificates/development-student-club.png",
-      title: "TITLE3",
-      des: "this is a description",
+      title: "Google Developer",
+      des: "",
     },
     {
       id: 12,
       img: "./certificates/codegeeks.png",
-      title: "TITLE3",
-      des: "this is a description",
+      title: "Code Geeks",
+      des: "",
     },
   ];
 
-  const startId = 1;
-  const endId = 3;
+  const S1 = 1;
+  const E1 = 3;
+  const S2 = 4;
+  const E2 = 6;
+  const S3 = 7;
+  const E3 = 9;
+  const S4 = 10;
+  const E4 = 12;
 
-  const startIndex = data.findIndex((item) => item.id === startId);
-  const endIndex = data.findIndex((item) => item.id === endId);
+  const startIndex = (S1) => {
+    return data.findIndex((item) => item.id === S1);
+  };
+  const endIndex = (E1) => {
+    return data.findIndex((item) => item.id === E1);
+  };
 
-  const slicedData = data.slice(startIndex, endIndex + 1);
+  const D1 = data.slice(startIndex(S1), endIndex(E1) + 1);
+  const D2 = data.slice(startIndex(S2), endIndex(E2) + 1);
+  const D3 = data.slice(startIndex(S3), endIndex(E3) + 1);
+  const D4 = data.slice(startIndex(S4), endIndex(E4) + 1);
 
   const [vis, setVis] = useState(false);
   function handlevis() {
@@ -97,15 +110,15 @@ const SelectedCertificate = () => {
       animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
       transition={{ duration: 0.6 }} // Duration of the animation
     >
-      <div className=" mt-7 md:px-6 px-3">
+      <div className=" mt-7 md:mt-5 md:px-6 px-3">
         <div className=" font-bricolage flex items-center gap-1 text-2xl font-semibold">
           Certificates
           <GrCertificate />.
         </div>
         <div className=" md:flex flex-col items-center">
           <div className=" flex-col flex md:gap-6 gap-4 mt-4">
-            <div className=" flex md:flex-row flex-col gap-4">
-              {slicedData.map((cert) => (
+            <div className=" flex md:flex-row items-center flex-col gap-4">
+              {D1.map((cert) => (
                 <div className="basis-1/3" key={cert.id}>
                   <CertificateBox
                     title={cert.title}
@@ -124,8 +137,19 @@ const SelectedCertificate = () => {
                   exit={{ opacity: 0, y: -40 }}
                 >
                   <div className=" flex-col flex md:gap-6 gap-4 ">
-                    <div className=" flex md:flex-row flex-col gap-4">
-                      {slicedData.map((cert) => (
+                    <div className=" flex md:flex-row flex-col items-center gap-4">
+                      {D2.map((cert) => (
+                        <div className="basis-1/3" key={cert.id}>
+                          <CertificateBox
+                            title={cert.title}
+                            img={cert.img}
+                            des={cert.des}
+                          />
+                        </div>
+                      ))}
+                    </div>
+                    <div className=" flex md:flex-row flex-col items-center gap-4">
+                      {D3.map((cert) => (
                         <div className="basis-1/3" key={cert.id}>
                           <CertificateBox
                             title={cert.title}
@@ -136,7 +160,7 @@ const SelectedCertificate = () => {
                       ))}
                     </div>
                     <div className=" flex md:flex-row flex-col gap-4">
-                      {slicedData.map((cert) => (
+                      {D4.map((cert) => (
                         <div className="basis-1/3" key={cert.id}>
                           <CertificateBox
                             title={cert.title}
