@@ -50,7 +50,7 @@ const Footer = () => {
           >
             therinkit{" "}
           </a>
-          || All Rights Reserved
+          . All Rights Reserved
         </div>
       </div>
     </motion.div>

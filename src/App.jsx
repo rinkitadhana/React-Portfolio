@@ -6,7 +6,7 @@ import Blog from "./pages/blog";
 import Navbar from "./Component/navbar";
 import Footer from "./Component/footer";
 import { useState } from "react";
-import ErrorMessage from "./inbuild/404";
+import ErrorMessage from "./Component/404";
 
 function App() {
   const systemPrefersDark = window.matchMedia(

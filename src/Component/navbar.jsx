@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { Link, NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
+
 const Navbar = () => {
   const scrollToTop = () => {
     window.scrollTo(0, 0);

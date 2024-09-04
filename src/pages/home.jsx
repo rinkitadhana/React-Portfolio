@@ -1,10 +1,11 @@
-import Skills from "../inbuild/skills";
-import SelectedProjects from "../inbuild/selectedProjects";
-import Highlights from "../inbuild/highlights";
+import Skills from "../Component/skills";
+import SelectedProjects from "../Component/selectedProjects";
+import Highlights from "../Component/highlights";
 import { motion } from "framer-motion";
-import Intro from "../inbuild/Intro";
+import Intro from "../Component/Intro";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Certificate from "../Component/Certificates";
 
 const Home = () => {
   const scrollToTop = () => {

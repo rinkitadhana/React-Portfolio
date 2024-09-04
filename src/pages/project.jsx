@@ -1,4 +1,4 @@
-import ProjectBox from "../tool/projectbox";
+import ProjectBox from "../Component/projectbox";
 
 const Project = () => {
   return (

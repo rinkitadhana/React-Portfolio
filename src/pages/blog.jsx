@@ -1,4 +1,4 @@
-import Building from "../inbuild/building";
+import Building from "../Component/building";
 
 const Blog = () => {
   return (
