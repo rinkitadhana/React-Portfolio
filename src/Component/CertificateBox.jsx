@@ -19,7 +19,7 @@ const CertificateBox = ({ title, des, img }) => {
       <div>
         <div className="flex flex-col gap-2   items-center px-4 py-6 box-border font-popins rounded-lg  dark:bg-white/20 shadow-md shadow-gray-300 border-2 border-gray-100 dark:shadow-none dark:border-none ">
           <motion.div
-            whileTap={{ scale: 1 }}
+            whileTap={{ scale: 0.95 }}
             whileHover={{
               scale: 1.05,
             }}
