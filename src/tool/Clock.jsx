@@ -22,11 +22,7 @@ class LiveClockUpdate extends Component {
   }
 
   render() {
-    return (
-      <div>
-        <h2>{this.state.date.toLocaleTimeString()}</h2>
-      </div>
-    );
+    return <div>{this.state.date.toLocaleTimeString()}</div>;
   }
 }
 
