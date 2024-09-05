@@ -19,46 +19,52 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 md:static">
       <nav className="flex justify-between items-center dark:text-white text-gray-700 py-4 px-8 md:px-40  md:mx-10  bg-white dark:bg-black z-50">
-        <a className=" font-semibold text-lg  group " href="/">
-          <span className="text-theme-blue group-hover:text-gray-700 transition-all delay-75  dark:group-hover:text-white ">
-            @
-          </span>
-          <span className="group-hover:text-theme-blue transition-all delay-75 ">
-            therinkit
-          </span>
+        <a
+          className=" font-bold text-lg inline-flex animate-background-shine bg-[linear-gradient(110deg,#939393,45%,#1e293b,55%,#939393)] bg-[length:250%_100%] bg-clip-text text-transparent  "
+          href="/"
+        >
+          @therinkit
         </a>
-        <ul className="hidden xl:flex items-center gap-6 font-semibold text-base">
-          <li className="hover:text-theme-blue cursor-pointer ">
+        <ul className="hidden xl:flex items-center gap-6 dark:text-gray-400 text-gray-500 font-semibold  text-base">
+          <li className="dark:hover:text-white hover:text-black cursor-pointer ">
             <NavLink
               to="/"
-              className={({ isActive }) => (isActive ? "text-theme-blue" : "")}
+              className={({ isActive }) =>
+                isActive ? "dark:text-white text-gray-600 font-bold" : ""
+              }
             >
               home
             </NavLink>
           </li>
-          <li className="hover:text-theme-blue cursor-pointer">
+          <li className="dark:hover:text-white hover:text-black cursor-pointer">
             {" "}
             <NavLink
               to="/about"
-              className={({ isActive }) => (isActive ? "text-theme-blue" : "")}
+              className={({ isActive }) =>
+                isActive ? "dark:text-white text-gray-600 font-bold" : ""
+              }
             >
               about
             </NavLink>
           </li>
-          <li className="hover:text-theme-blue cursor-pointer">
+          <li className="dark:hover:text-white hover:text-black cursor-pointer">
             {" "}
             <NavLink
               to="/project"
-              className={({ isActive }) => (isActive ? "text-theme-blue" : "")}
+              className={({ isActive }) =>
+                isActive ? "dark:text-white text-gray-600 font-bold" : ""
+              }
             >
               projects
             </NavLink>
           </li>
-          <li className="hover:text-theme-blue cursor-pointer">
+          <li className="dark:hover:text-white hover:text-black cursor-pointer">
             {" "}
             <NavLink
               to="/blog"
-              className={({ isActive }) => (isActive ? "text-theme-blue" : "")}
+              className={({ isActive }) =>
+                isActive ? "dark:text-white text-gray-600 font-bold" : ""
+              }
             >
               blogs
             </NavLink>

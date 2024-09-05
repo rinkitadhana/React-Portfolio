@@ -3,6 +3,19 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      animation: {
+        "background-shine": "background-shine 3s linear infinite",
+      },
+      keyframes: {
+        "background-shine": {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
+        },
+      },
       colors: {
         "theme-blue": "#2978b5",
       },

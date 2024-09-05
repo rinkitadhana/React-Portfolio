@@ -105,92 +105,87 @@ const SelectedCertificate = () => {
     setVis((prev) => !prev);
   }
   return (
-    <motion.div
-      initial={{ opacity: 0, y: -30 }} // Start with 0 opacity and slightly above the final position
-      animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
-      transition={{ duration: 0.6 }} // Duration of the animation
-    >
-      <div className=" mt-7 md:mt-5 md:px-6 px-3">
-        <div className=" font-bricolage flex items-center gap-1 text-2xl font-semibold">
-          Certificates
-          <GrCertificate />.
-        </div>
-        <div className=" md:flex flex-col items-center">
-          <div className=" flex-col flex md:gap-6 gap-4 mt-4">
-            <div className=" flex md:flex-row items-center flex-col gap-4">
-              {D1.map((cert) => (
-                <div className="basis-1/3" key={cert.id}>
-                  <CertificateBox
-                    title={cert.title}
-                    img={cert.img}
-                    des={cert.des}
-                  />
-                </div>
-              ))}
-            </div>
-            <AnimatePresence>
-              {vis && (
-                <motion.div
-                  initial={{ opacity: 0, y: -40 }} // Start with 0 opacity and slightly above the final position
-                  animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
-                  transition={{ duration: 0.4 }} // Duration of the animation
-                  exit={{ opacity: 0, y: -40 }}
-                >
-                  <div className=" flex-col flex md:gap-6 gap-4 ">
-                    <div className=" flex md:flex-row flex-col items-center gap-4">
-                      {D2.map((cert) => (
-                        <div className="basis-1/3" key={cert.id}>
-                          <CertificateBox
-                            title={cert.title}
-                            img={cert.img}
-                            des={cert.des}
-                          />
-                        </div>
-                      ))}
-                    </div>
-                    <div className=" flex md:flex-row flex-col items-center gap-4">
-                      {D3.map((cert) => (
-                        <div className="basis-1/3" key={cert.id}>
-                          <CertificateBox
-                            title={cert.title}
-                            img={cert.img}
-                            des={cert.des}
-                          />
-                        </div>
-                      ))}
-                    </div>
-                    <div className=" flex md:flex-row flex-col gap-4">
-                      {D4.map((cert) => (
-                        <div className="basis-1/3" key={cert.id}>
-                          <CertificateBox
-                            title={cert.title}
-                            img={cert.img}
-                            des={cert.des}
-                          />
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
+    <div className=" mt-7 md:mt-5 md:px-6 px-3">
+      <div className=" font-bricolage flex items-center gap-1 text-2xl font-semibold">
+        Certificates
+        <GrCertificate />.
+      </div>
+      <div className=" md:flex flex-col items-center">
+        <div className=" flex-col flex md:gap-6 gap-4 mt-4">
+          <div className=" flex md:flex-row items-center flex-col gap-4">
+            {D1.map((cert) => (
+              <div className="basis-1/3" key={cert.id}>
+                <CertificateBox
+                  title={cert.title}
+                  img={cert.img}
+                  des={cert.des}
+                />
+              </div>
+            ))}
           </div>
-          <div className="flex justify-center mt-4">
-            <div onClick={handlevis}>
+          <AnimatePresence>
+            {vis && (
               <motion.div
-                whileTap={{ scale: 0.85 }}
-                whileHover={{
-                  scale: 1.07,
-                }}
-                className="px-2 py-1.5 cursor-pointer dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20 border-2 border-gray-200 shadow-md shadow-gray-300 font-semibold text-black dark:text-white dark:bg-white/30 w-fit rounded-md"
+                initial={{ opacity: 0, y: -40 }} // Start with 0 opacity and slightly above the final position
+                animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
+                transition={{ duration: 0.4 }} // Duration of the animation
+                exit={{ opacity: 0, y: -40 }}
               >
-                {vis ? "show less" : "show more"}
+                <div className=" flex-col flex md:gap-6 gap-4 ">
+                  <div className=" flex md:flex-row flex-col items-center gap-4">
+                    {D2.map((cert) => (
+                      <div className="basis-1/3" key={cert.id}>
+                        <CertificateBox
+                          title={cert.title}
+                          img={cert.img}
+                          des={cert.des}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                  <div className=" flex md:flex-row flex-col items-center gap-4">
+                    {D3.map((cert) => (
+                      <div className="basis-1/3" key={cert.id}>
+                        <CertificateBox
+                          title={cert.title}
+                          img={cert.img}
+                          des={cert.des}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                  <div className=" flex md:flex-row flex-col gap-4">
+                    {D4.map((cert) => (
+                      <div className="basis-1/3" key={cert.id}>
+                        <CertificateBox
+                          title={cert.title}
+                          img={cert.img}
+                          des={cert.des}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </motion.div>
-            </div>
+            )}
+          </AnimatePresence>
+        </div>
+        <div className="flex justify-center mt-4">
+          <div onClick={handlevis}>
+            <motion.div
+              transition={{ duration: 0.3 }}
+              whileTap={{ scale: 0.85 }}
+              whileHover={{
+                scale: 1.07,
+              }}
+              className="px-2 py-1.5 cursor-pointer dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20 border-2 border-gray-200 shadow-md shadow-gray-300 font-semibold text-black dark:text-white dark:bg-white/30 w-fit rounded-md"
+            >
+              {vis ? "show less" : "show more"}
+            </motion.div>
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

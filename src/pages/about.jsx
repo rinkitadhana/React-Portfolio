@@ -2,17 +2,19 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className=" page transition-opacity duration-500 opacity-100 text-gray-700 dark:text-white flex flex-col md:flex-row  justify-center mt-2  ">
-      <div className="md:w-3/5 px-2  ">
-        <div className="flex flex-row justify-start ">
-          <div className=" text-2xl font-bricolage font-semibold">About Me</div>
-        </div>
-        <div className="px-2 mt-6 md:mt-2 ">
-          <motion.div
-            initial={{ opacity: 0, y: -30 }} // Start with 0 opacity and slightly above the final position
-            animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
-            transition={{ duration: 0.6 }} // Duration of the animation
-          >
+    <motion.div
+      initial={{ opacity: 0, scale: 0.99 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1 }}
+    >
+      <div className=" page transition-opacity duration-500 opacity-100 text-gray-700 dark:text-white flex flex-col md:flex-row  justify-center mt-2  ">
+        <div className="md:w-[900px] px-2  ">
+          <div className="flex flex-row justify-start ">
+            <div className=" text-2xl font-bricolage font-semibold">
+              About Me
+            </div>
+          </div>
+          <div className="px-2 mt-6 md:mt-2 ">
             <div className=" flex md:flex-row flex-col-reverse gap-2 items-center justify-between ">
               <div className=" md:text-start text-start w-full hidden md:block ">
                 <ul className="text-[1.101rem]   ">
@@ -87,12 +89,7 @@ const About = () => {
                 src="/IMG/dp2.jpg"
               />
             </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: -30 }} // Start with 0 opacity and slightly above the final position
-            animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
-            transition={{ duration: 0.6 }} // Duration of the animation
-          >
+
             <div className="px-2 md:px-0 font-popins">
               <div className=" my-4  text-justify mt-6 ">
                 Hey, I'm Rinkit Adhana, a third-year student exploring the field
@@ -131,13 +128,8 @@ const About = () => {
                 helped me explore this field more deeply.
               </div>
             </div>
-          </motion.div>
-        </div>
-        <motion.div
-          initial={{ opacity: 0, y: -30 }} // Start with 0 opacity and slightly above the final position
-          animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
-          transition={{ duration: 0.6 }} // Duration of the animation
-        >
+          </div>
+
           <div>
             <div className="flex flex-row justify-start mt-4">
               <div className=" text-2xl font-bricolage font-semibold">
@@ -161,9 +153,9 @@ const About = () => {
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

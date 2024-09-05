@@ -12,16 +12,17 @@ const Home = () => {
     window.scrollTo(0, 0);
   };
   return (
-    <div className=" text-gray-700 dark:text-white flex justify-center mt-2">
-      <div className="md:w-3/5 ">
-        <div>
-          <Intro />
-        </div>
-        <motion.div
-          initial={{ opacity: 0, y: -30 }} // Start with 0 opacity and slightly above the final position
-          animate={{ opacity: 1, y: 0 }} // Fade in and move down to the original position
-          transition={{ duration: 0.6 }} // Duration of the animation
-        >
+    <motion.div
+      initial={{ opacity: 0, scale: 0.99 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1 }}
+    >
+      <div className=" text-gray-700 dark:text-white flex justify-center mt-2">
+        <div className="md:w-[900px] ">
+          <div>
+            <Intro />
+          </div>
+
           <div>
             <div className=" md:mt-6 mt-4 text-justify font-popins  md:px-6 px-4">
               I'm currently in my{" "}
@@ -82,17 +83,17 @@ const Home = () => {
               . I hope you like it <span className=" text-pink-500">:)</span>
             </div>
           </div>
-        </motion.div>
 
-        <div></div>
-        <div>
-          <Skills />
-          <SelectedProjects />
-          <Certificate />
-          <Highlights />
+          <div></div>
+          <div>
+            <Skills />
+            <SelectedProjects />
+            <Certificate />
+            <Highlights />
+          </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
