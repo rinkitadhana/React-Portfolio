@@ -22,7 +22,14 @@ class LiveClockUpdate extends Component {
   }
 
   render() {
-    return <div>{this.state.date.toLocaleTimeString()}</div>;
+    return (
+      <div>
+        {this.state.date.toLocaleTimeString([], {
+          hour: "2-digit",
+          minute: "2-digit",
+        })}
+      </div>
+    );
   }
 }
 

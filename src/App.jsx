@@ -7,6 +7,7 @@ import Navbar from "./Component/navbar";
 import Footer from "./Component/footer";
 import { useState } from "react";
 import ErrorMessage from "./Component/404";
+import LiveClockUpdate from "./tool/Clock";
 
 function App() {
   const systemPrefersDark = window.matchMedia(
@@ -21,20 +22,25 @@ function App() {
       <div className={`${darkMode && "dark"}`}>
         <div className=" dark:bg-black min-h-screen">
           <BrowserRouter>
-            <div className="flex gap-4 justify-end items-center pt-5 mx-8 text-gray-700 dark:text-white">
-              <span className="animate-pulse underline font-serif cursor-pointer text-pink-500 border-theme-blue hover:text-gray-700 dark:hover:text-white">
-                <Link to="mailto:therinkit@gmail.com">Hire Me</Link>
-              </span>
-              <button
-                className=" top-3 text-xl cursor-pointer text-gray-600 dark:text-white hover:text-theme-blue "
-                onClick={toggleDarkMode}
-              >
-                {darkMode ? (
-                  <img src="./icon/sun.png" className="size-6" />
-                ) : (
-                  <img src="./icon/full-moon.png" className="size-6" />
-                )}
-              </button>
+            <div className="flex gap-4 md:justify-between justify-end items-center pt-5 px-8 text-gray-700 dark:text-white">
+              <div className=" md:flex flex-row gap-2 text-base font-sans hidden font-medium  dark:text-white">
+                Local time <LiveClockUpdate />
+              </div>
+              <div className=" flex flex-row gap-3">
+                <span className="animate-pulse underline font-serif cursor-pointer text-pink-500 border-theme-blue hover:text-gray-700 dark:hover:text-white">
+                  <Link to="mailto:therinkit@gmail.com">Hire Me</Link>
+                </span>
+                <button
+                  className=" top-3 text-xl cursor-pointer text-gray-600 dark:text-white hover:text-theme-blue "
+                  onClick={toggleDarkMode}
+                >
+                  {darkMode ? (
+                    <img src="./icon/sun.png" className="size-6" />
+                  ) : (
+                    <img src="./icon/full-moon.png" className="size-6" />
+                  )}
+                </button>
+              </div>
             </div>
 
             <Navbar />

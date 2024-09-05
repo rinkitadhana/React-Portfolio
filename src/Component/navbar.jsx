@@ -19,10 +19,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 md:static">
       <nav className="flex justify-between items-center dark:text-white text-gray-700 py-4 px-8 md:px-40  md:mx-10  bg-white dark:bg-black z-50">
-        <a
-          className=" font-bold text-lg inline-flex animate-background-shine bg-[linear-gradient(110deg,#939393,45%,#1e293b,55%,#939393)] bg-[length:250%_100%] bg-clip-text text-transparent  "
-          href="/"
-        >
+        <a className=" font-semibold text-lg  " href="/">
           @therinkit
         </a>
         <ul className="hidden xl:flex items-center gap-6 dark:text-gray-400 text-gray-500 font-semibold  text-base">
