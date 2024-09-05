@@ -40,13 +40,7 @@ const Intro = () => {
             >
               <LuGithub />
             </a>
-            <a
-              href="https://www.instagram.com/rnkktt/"
-              target="_blank"
-              className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
-            >
-              <FaInstagram />
-            </a>
+
             <a
               href="https://www.linkedin.com/in/rinkitadhana/"
               target="_blank"
@@ -60,6 +54,13 @@ const Intro = () => {
               className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
             >
               <SiLeetcode />
+            </a>
+            <a
+              href="https://www.instagram.com/rnkktt/"
+              target="_blank"
+              className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
+            >
+              <FaInstagram />
             </a>
             <a
               href=""
