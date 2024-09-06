@@ -1,6 +1,5 @@
 import { FaRegFile } from "react-icons/fa6";
 import ProjectBox from "./projectbox";
-import { PiDotsThreeOutlineDuotone } from "react-icons/pi";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 

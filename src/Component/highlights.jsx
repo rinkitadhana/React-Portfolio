@@ -1,20 +1,17 @@
 import { BsFeather } from "react-icons/bs";
-import { motion } from "framer-motion";
-
-import { PiDotsThreeOutlineDuotone } from "react-icons/pi";
 
 const Highlights = () => {
   return (
-    <div className="md:px-6 px-3 mt-7 md:mt-5 font-popins">
+    <div className="md:px-6 px-3 mt-7 md:mt-5 ">
       <div className=" font-bricolage flex items-center  gap-1 text-2xl font-semibold">
         Highlights
         <BsFeather />.
       </div>
-      <div className="mt-3 ">
+      <div className="mt-3 text-base ">
         <div className="border-b-2 dark:border-white/30 "></div>
         <div className=" divide-y-2 dark:divide-white/30 px-2 md:px-0">
           <div>
-            <div className=" py-4 md:text-justify text-start ">
+            <div className=" py-4 md:text-justify text-start font-popins ">
               I'm currently on a{" "}
               <span className=" font-bold text-gray-500 dark:text-white ">
                 100 Days of Code
