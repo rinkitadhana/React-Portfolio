@@ -30,6 +30,7 @@ const ProjectBox = (props) => {
                   <></>
                 ) : (
                   <Link
+                    title="live"
                     to={`${props.url}`}
                     target="_blank"
                     className=" cursor-pointer"
@@ -39,6 +40,7 @@ const ProjectBox = (props) => {
                 )}
 
                 <Link
+                  title="github"
                   to={`${props.github}`}
                   target="_blank"
                   className=" cursor-pointer"

@@ -8,6 +8,7 @@ import Footer from "./Component/footer";
 import { useState } from "react";
 import ErrorMessage from "./Component/404";
 import LiveClockUpdate from "./tool/Clock";
+import { Downbar } from "./Component/Downbar";
 
 function App() {
   const systemPrefersDark = window.matchMedia(
@@ -22,9 +23,9 @@ function App() {
       <div className={`${darkMode && "dark"}`}>
         <div className=" dark:bg-black min-h-screen">
           <BrowserRouter>
-            <div className="flex gap-4 md:justify-between justify-end items-center pt-5 px-8 text-gray-700 dark:text-white">
+            <div className="flex gap-4 md:justify-between justify-end items-center pt-5 px-8 text-gray-700 dark:text-white mb-4">
               <div className=" md:flex flex-row items-center gap-2 text-base font-sans hidden text-gray-500 font-medium  dark:text-gray-400">
-                <span>Local time</span>
+                <span className="">Local time</span>
                 <div className="text-sm ">
                   <LiveClockUpdate />
                 </div>
@@ -46,7 +47,7 @@ function App() {
               </div>
             </div>
 
-            <Navbar />
+            <Downbar />
 
             <Routes>
               <Route path="/" element={<Home />} />
