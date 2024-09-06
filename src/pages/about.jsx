@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div className="px-2 mt-6 md:mt-0">
             <div className=" flex md:flex-row flex-col-reverse gap-2 items-center justify-between  ">
-              <div className=" md:text-start text-start w-full hidden md:block  ">
+              <div className=" text-start w-full hidden md:block  ">
                 <ul className="text-[1.101rem]   ">
                   <li className=" flex flex-row gap-2 items-center">
                     <i className="fa-solid fa-paper-plane"></i> Lives in{" "}
