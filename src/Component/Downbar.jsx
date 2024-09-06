@@ -17,7 +17,7 @@ export function Downbar() {
     // Add a slight delay for scroll reset, to prevent layout shifts from affecting animation
     const scrollTimeout = setTimeout(() => {
       window.scrollTo(0, 0);
-    }, 300);
+    });
 
     return () => clearTimeout(scrollTimeout);
   }, [location.pathname]);
