@@ -10,13 +10,13 @@ const About = () => {
       <div className=" page transition-opacity duration-500 opacity-100 text-gray-700 dark:text-white flex flex-col md:flex-row  justify-center mt-2  ">
         <div className="md:w-[900px] px-2  ">
           <div className="flex flex-row justify-start ">
-            <div className=" text-2xl font-bricolage font-semibold">
+            <div className=" text-2xl font-bricolage font-semibold ">
               About Me
             </div>
           </div>
           <div className="px-2 mt-6 md:mt-0">
-            <div className=" flex md:flex-row flex-col-reverse gap-2 items-center justify-between ">
-              <div className=" md:text-start text-start w-full hidden md:block ">
+            <div className=" flex md:flex-row flex-col-reverse gap-2 items-center justify-between  ">
+              <div className=" md:text-start text-start w-full hidden md:block  ">
                 <ul className="text-[1.101rem]   ">
                   <li className=" flex flex-row gap-2 items-center">
                     <i className="fa-solid fa-paper-plane"></i> Lives in{" "}
@@ -85,7 +85,7 @@ const About = () => {
                 </ul>
               </div>
               <img
-                className=" border md:size-56  md:rounded-full rounded-xl md:hover:scale-105  transition delay-100"
+                className=" border md:size-52  md:rounded-full rounded-xl md:hover:scale-105  transition delay-100"
                 src="/IMG/dp2.jpg"
               />
             </div>

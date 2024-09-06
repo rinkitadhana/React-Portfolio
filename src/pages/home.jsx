@@ -26,38 +26,38 @@ const Home = () => {
           <div>
             <div className=" md:mt-6 mt-4 md:text-justify text-start font-popins  md:px-6 px-4">
               I'm currently in my{" "}
-              <span className=" font-bold text-gray-500 dark:text-white">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 Third year
               </span>
               , pursuing B.Tech in{" "}
-              <span className=" font-bold text-gray-500 dark:text-white">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 Computer Science and Engineering
               </span>{" "}
               at IPU, Delhi. Although I am familiar with many technologies, as
               listed in the "
-              <span className=" font-bold text-theme-blue dark:text-white">
+              <span className=" font-semibold font-sans text-theme-blue dark:text-white">
                 Skills and Tools
               </span>
               " section, I primarily work with{" "}
-              <span className=" font-bold text-gray-500 dark:text-white">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 React and Tailwind
               </span>{" "}
               for the frontend, and{" "}
-              <span className=" font-bold text-gray-500 dark:text-white">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 Express and MongoDB
               </span>{" "}
               for the backend. I have created many cool projects with these
               technologies, which you can view in the "
-              <span className=" font-bold text-theme-blue dark:text-white">
+              <span className=" font-semibold font-sans text-theme-blue dark:text-white">
                 Projects
               </span>
               " section . Besides development, I am also skilled in{" "}
-              <span className=" font-bold text-gray-500 dark:text-white">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 Data Structures and Algorithms
               </span>{" "}
               (DSA) and practice daily with LeetCode questions, which you can
               see on my{" "}
-              <span className=" font-bold text-gray-500 dark:text-white">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 LeetCode profile
               </span>
               .

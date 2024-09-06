@@ -41,7 +41,7 @@ const SelectedProjects = () => {
           statusColor="text-green-500"
           content="A project to boost your Twitter engagement by generating a variety of programming-related content, including fun questions, creative tweets, and useful advice. This tool helps you connect with your audience by providing fresh and engaging posts tailored to the programming community."
           url="https://therinkit-tweetspree.vercel.app/"
-          github="github.com/rinkitadhana/TweetSpree"
+          github="https://github.com/rinkitadhana/TweetSpree"
           skill={["React", "Tailwind", "Node", "AI"]}
         />
 

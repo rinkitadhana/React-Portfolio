@@ -13,15 +13,15 @@ const Highlights = () => {
           <div>
             <div className=" py-4 md:text-justify text-start  ">
               I'm currently on a{" "}
-              <span className=" font-semibold font-sans text-gray-500 dark:text-white ">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 100 Days of Code
               </span>{" "}
               journey, which I started on{" "}
-              <span className=" font-semibold font-sans text-gray-500 dark:text-white ">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 July 9, 2024
               </span>
               . Every day, I'm learning something new in both{" "}
-              <span className=" font-semibold font-sans text-gray-500 dark:text-white ">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 DSA and Development
               </span>
               . If you'd like to follow my progress, feel free to follow me on{" "}
@@ -46,15 +46,15 @@ const Highlights = () => {
           <div>
             <div className=" py-4 md:text-justify text-start ">
               I created my{" "}
-              <span className=" font-semibold font-sans text-gray-500 dark:text-white ">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 first website
               </span>{" "}
               during my first-ever hackathon, held at{" "}
-              <span className=" font-semibold font-sans text-gray-500 dark:text-white ">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 MSIT, Delhi
               </span>
               , using only{" "}
-              <span className=" font-semibold font-sans text-gray-500 dark:text-white ">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 HTML, CSS, and JavaScript
               </span>{" "}
               with my team. I had no idea about any of it at the time, but I
@@ -73,22 +73,22 @@ const Highlights = () => {
           <div>
             <div className=" py-4 md:text-justify text-start ">
               I started learning programming with{" "}
-              <span className=" font-semibold font-sans text-gray-500 dark:text-white ">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 Java
               </span>{" "}
               in my first year, with no prior knowledge of programming at all.
               Java quickly became my{" "}
-              <span className=" font-semibold font-sans text-gray-500 dark:text-white ">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 first love {":)"}
               </span>{" "}
               Learning programming was so challenging for me that I switched
               teachers three times:{" "}
-              <span className=" font-semibold font-sans text-gray-500 dark:text-white ">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 Ranga, Tim, and finally Mosh
               </span>
               . Mosh's Java course was exceptional and on point, ig that’s why
               he's the{" "}
-              <span className=" font-semibold font-sans text-gray-500 dark:text-white ">
+              <span className=" font-semibold font-sans text-gray-800 dark:text-white ">
                 GOAT
               </span>{" "}
               of tech community. I still use Java for DSA and plan to continue
