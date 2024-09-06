@@ -2,7 +2,7 @@ import { FiGithub } from "react-icons/fi";
 import { GoDotFill } from "react-icons/go";
 import { IoIosLink } from "react-icons/io";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { Tooltip } from "../tool/ToolTip";
 
 const ProjectBox = (props) => {
   return (
@@ -29,24 +29,25 @@ const ProjectBox = (props) => {
                 {props.remove ? (
                   <></>
                 ) : (
+                  <Tooltip text="live">
+                    <Link
+                      to={`${props.url}`}
+                      target="_blank"
+                      className=" cursor-pointer"
+                    >
+                      <IoIosLink className="text-blue-500 hover:scale-125 hover:text-blue-700 transition-transform" />
+                    </Link>
+                  </Tooltip>
+                )}
+                <Tooltip text="github">
                   <Link
-                    title="live"
-                    to={`${props.url}`}
+                    to={`${props.github}`}
                     target="_blank"
                     className=" cursor-pointer"
                   >
-                    <IoIosLink className="text-blue-500 hover:scale-125 hover:text-blue-700 transition-transform" />
+                    <FiGithub className="hover:scale-125  transition-transform" />
                   </Link>
-                )}
-
-                <Link
-                  title="github"
-                  to={`${props.github}`}
-                  target="_blank"
-                  className=" cursor-pointer"
-                >
-                  <FiGithub className="hover:scale-125  transition-transform" />
-                </Link>
+                </Tooltip>
               </div>
             </div>
           </div>

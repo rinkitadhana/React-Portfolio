@@ -24,7 +24,7 @@ const Home = () => {
           </div>
 
           <div>
-            <div className=" md:mt-6 mt-4 text-justify font-popins  md:px-6 px-4">
+            <div className=" md:mt-6 mt-4 md:text-justify text-start font-popins  md:px-6 px-4">
               I'm currently in my{" "}
               <span className=" font-bold text-gray-500 dark:text-white">
                 Third year
