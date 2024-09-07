@@ -53,14 +53,6 @@ const Skills = () => {
         <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
           <RiTailwindCssFill /> Tailwind
         </div>
-
-        <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
-          <FaRegPlayCircle /> Flowbite
-        </div>
-        <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
-          <TbBrandFramerMotion /> Framer Motion
-        </div>
-
         <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
           <RiReactjsLine /> ReactJs
         </div>
@@ -68,6 +60,13 @@ const Skills = () => {
           <RiNextjsLine />
           NextJs
         </div>
+        <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
+          <FaRegPlayCircle /> Flowbite
+        </div>
+        <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
+          <TbBrandFramerMotion /> Framer Motion
+        </div>
+
         <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
           <IoLogoNodejs /> NodeJS
         </div>
