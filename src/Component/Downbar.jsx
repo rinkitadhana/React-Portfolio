@@ -14,7 +14,6 @@ export function Downbar() {
   let [activeTab, setActiveTab] = useState(location.pathname);
 
   useEffect(() => {
-    // Add a slight delay for scroll reset, to prevent layout shifts from affecting animation
     const scrollTimeout = setTimeout(() => {
       window.scrollTo(0, 0);
     });
@@ -28,7 +27,7 @@ export function Downbar() {
 
   return (
     <div className="flex justify-center">
-      <div className="flex space-x-1 bottom-5 fixed bg-black/80 p-2 rounded-xl z-50">
+      <div className="flex space-x-1 bottom-5 fixed bg-black/80 p-2 rounded-xl z-50  ">
         {tabs.map((tab) => (
           <Link
             to={tab.id}

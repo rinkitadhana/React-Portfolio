@@ -53,12 +53,7 @@ const Skills = () => {
         <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
           <RiTailwindCssFill /> Tailwind
         </div>
-        <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
-          <FaBootstrap /> Bootstrap
-        </div>
-        <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
-          <TbHexagonLetterM /> MaterialUI
-        </div>
+
         <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
           <FaRegPlayCircle /> Flowbite
         </div>
@@ -83,16 +78,10 @@ const Skills = () => {
         <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
           <SiPostman /> Postman
         </div>
-        <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
-          <SiInsomnia /> Insomnia
-        </div>
-        <div className=" flex flex-row gap-1 rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
-          <FiDatabase /> Database
-        </div>
+
         <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
           <BiLogoPostgresql /> PostgreSQL
         </div>
-
         <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
           <SiMongodb /> MongoDB
         </div>
@@ -116,12 +105,7 @@ const Skills = () => {
         <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
           <VscTerminalLinux /> Linux
         </div>
-        <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
-          <FiFigma /> Figma
-        </div>
-        <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
-          <SiNetlify /> Netlify
-        </div>
+
         <div className=" flex flex-row gap-1  rounded-md text-lg justify-center items-center font-medium w-fit px-2  dark:bg-white/30 shadow shadow-gray-200 border-2 border-gray-200 dark:shadow-none dark:border-white/20 hover:bg-gray-200 dark:hover:bg-white/20  cursor-pointer transition-all">
           <SiVercel /> Vercel
         </div>
