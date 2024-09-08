@@ -1,15 +1,23 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const Downbar = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   let tabs = [
     { id: "/", label: "home" },
     { id: "/about", label: "about" },
     { id: "/project", label: "projects" },
     { id: "/blog", label: "blogs" },
   ];
+
   return (
-    <div className=" flex justify-center">
-      <nav className=" flex gap-2 border dark:border-zinc-800 p-2  bg-white dark:bg-nav-dark z-50 rounded-xl font-semibold fixed bottom-5 shadow-custom">
+    <div className="flex justify-center">
+      <nav className="flex gap-2 border dark:border-zinc-800 p-2 bg-white dark:bg-nav-dark z-50 rounded-xl font-semibold fixed bottom-5 shadow-custom">
         {tabs.map((items) => (
           <NavLink
             key={items.id}
