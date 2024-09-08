@@ -1,57 +1,31 @@
-import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-let tabs = [
-  { id: "/", label: "home" },
-  { id: "/about", label: "about" },
-  { id: "/project", label: "projects" },
-  { id: "/blog", label: "blogs" },
-];
-
-export function Downbar() {
-  let location = useLocation();
-  let [activeTab, setActiveTab] = useState(location.pathname);
-
-  useEffect(() => {
-    const scrollTimeout = setTimeout(() => {
-      window.scrollTo(0, 0);
-    });
-
-    return () => clearTimeout(scrollTimeout);
-  }, [location.pathname]);
-
-  useEffect(() => {
-    setActiveTab(location.pathname);
-  }, [location.pathname]);
-
+const Downbar = () => {
+  let tabs = [
+    { id: "/", label: "home" },
+    { id: "/about", label: "about" },
+    { id: "/project", label: "projects" },
+    { id: "/blog", label: "blogs" },
+  ];
   return (
-    <div className="flex justify-center">
-      <div className="flex space-x-1 bottom-5 fixed bg-black/80 p-2 rounded-xl z-50  ">
-        {tabs.map((tab) => (
-          <Link
-            to={tab.id}
-            key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
-            className={`${
-              activeTab === tab.id ? "" : "hover:opacity-50"
-            } relative rounded-full px-3 py-1.5 text-sm font-medium text-white outline-sky-400 transition focus-visible:outline-2`}
-            style={{
-              WebkitTapHighlightColor: "transparent",
-            }}
+    <div className=" flex justify-center">
+      <nav className=" flex gap-2 border-2 dark:border-zinc-800 p-2 bg-white dark:bg-nav-dark z-50 rounded-lg font-semibold fixed bottom-5 shadow-custom">
+        {tabs.map((items) => (
+          <NavLink
+            key={items.id}
+            to={items.id}
+            className={({ isActive }) =>
+              isActive
+                ? "bg-black/80 rounded-lg text-white dark:text-black dark:bg-white py-1 px-1.5"
+                : "hover:opacity-60 py-1 px-1.5 rounded-lg dark:text-white"
+            }
           >
-            {activeTab === tab.id && (
-              <motion.span
-                className="absolute inset-0 z-10 bg-white mix-blend-difference"
-                style={{ borderRadius: 9 }}
-                layout
-                transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
-              />
-            )}
-            {tab.label}
-          </Link>
+            {items.label}
+          </NavLink>
         ))}
-      </div>
+      </nav>
     </div>
   );
-}
+};
+
+export default Downbar;

@@ -8,7 +8,7 @@ import Footer from "./Component/footer";
 import { useState } from "react";
 import ErrorMessage from "./Component/404";
 import LiveClockUpdate from "./tool/Clock";
-import { Downbar } from "./Component/Downbar";
+import Downbar from "./Component/Downbar";
 
 function App() {
   const systemPrefersDark = window.matchMedia(
