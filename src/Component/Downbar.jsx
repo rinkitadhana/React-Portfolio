@@ -9,7 +9,7 @@ const Downbar = () => {
   ];
   return (
     <div className=" flex justify-center">
-      <nav className=" flex gap-2 border-2 dark:border-zinc-800 p-2 bg-white dark:bg-nav-dark z-50 rounded-lg font-semibold fixed bottom-5 shadow-custom">
+      <nav className=" flex gap-2 border dark:border-zinc-800 p-2 text-sm md:text-base bg-white dark:bg-nav-dark z-50 rounded-lg font-semibold fixed bottom-5 shadow-custom">
         {tabs.map((items) => (
           <NavLink
             key={items.id}
