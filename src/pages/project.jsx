@@ -1,5 +1,5 @@
-import ProjectBox from "../Component/projectbox";
-import { motion } from "framer-motion";
+import ProjectBox from "../Component/projectbox"
+import { motion } from "framer-motion"
 
 const Project = () => {
   return (
@@ -32,6 +32,7 @@ const Project = () => {
               url="https://therinkit-promptopia.vercel.app"
               github="https://github.com/rinkitadhana/Promptopia"
               skill={["NextJS", "MongoDB", "Tailwind"]}
+              preview="./preview/building.mp4"
             />
             <ProjectBox
               img="./project/Anecdot.png"
@@ -49,6 +50,7 @@ const Project = () => {
                 "Mongo",
                 "Redux Toolkit",
               ]}
+              preview="./preview/building.mp4"
             />
             <ProjectBox
               img="./project/LinkIt.png"
@@ -59,6 +61,7 @@ const Project = () => {
               url="https://therinkit-linkit.vercel.app/"
               github="https://github.com/rinkitadhana/LinkIt"
               skill={["React", "Tailwind"]}
+              preview="./preview/linkit.mp4"
             />
             <ProjectBox
               img="./project/TweetSpree.png"
@@ -69,6 +72,7 @@ const Project = () => {
               url="https://therinkit-tweetspree.vercel.app/"
               github="github.com/rinkitadhana/TweetSpree"
               skill={["React", "Tailwind", "Node", "AI"]}
+              preview="./preview/tweetspree.mp4"
             />
             <ProjectBox
               img="./project/dovien.png"
@@ -79,6 +83,7 @@ const Project = () => {
               url="https://dovien.netlify.app/"
               github="https://github.com/rinkitadhana/dovien"
               skill={["HTML", "CSS", "Javascript", "Bootstrap"]}
+              preview="./preview/dovien.mp4"
             />
             <ProjectBox
               img="./project/TTS.png"
@@ -89,6 +94,7 @@ const Project = () => {
               url="https://therinkit-voiceforge.vercel.app/"
               github="https://github.com/rinkitadhana/text-to-speech"
               skill={["NextJs", "Tailwind", "V0"]}
+              preview="./preview/voiceforge.mp4"
             />
             <ProjectBox
               img="./project/Cooldeck.png"
@@ -99,6 +105,7 @@ const Project = () => {
               url="https://cooldeck.netlify.app/"
               github="https://github.com/rinkitadhana/CoolDeck"
               skill={["HTML", "CSS", "Javascript", "Bootstrap"]}
+              preview="./preview/cooldeck.mp4"
             />
             <ProjectBox
               img="./project/11Hack.png"
@@ -109,6 +116,7 @@ const Project = () => {
               url="https://therinkit-building.vercel.app"
               github="https://therinkit-building.vercel.app"
               skill={["React", "Tailwind", "Express", "MongoDB"]}
+              preview="./preview/building.mp4"
             />
 
             <ProjectBox
@@ -120,6 +128,7 @@ const Project = () => {
               url="https://lyterate.netlify.app/"
               github="https://github.com/rinkitadhana/LyteRate"
               skill={["HTML", "CSS", "Javascript", "Bootstrap"]}
+              preview="./preview/lyterate.mp4"
             />
             <ProjectBox
               img="./project/Xylem.png"
@@ -130,6 +139,7 @@ const Project = () => {
               url="https://xylemcleanup.netlify.app/"
               github="https://github.com/rinkitadhana/Xylem-Research-Paper"
               skill={["HTML", "CSS", "Javascript", "Research"]}
+              preview="./preview/xylem.mp4"
             />
 
             <ProjectBox
@@ -141,6 +151,7 @@ const Project = () => {
               remove={true}
               github="https://github.com/rinkitadhana/SnakeByJava"
               skill={["Java", "JavaFX"]}
+              preview="./preview/snake.mp4"
             />
             <ProjectBox
               img="./project/StopWatch.png"
@@ -151,12 +162,13 @@ const Project = () => {
               remove={true}
               github="https://github.com/rinkitadhana/StopWatchByJava"
               skill={["Java", "JavaFX"]}
+              preview=""
             />
           </div>
         </div>
       </div>
     </motion.div>
-  );
-};
+  )
+}
 
-export default Project;
+export default Project

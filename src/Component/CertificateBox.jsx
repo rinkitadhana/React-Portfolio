@@ -1,18 +1,18 @@
-import React, { useState } from "react";
-import Modal from "react-modal";
-import { motion } from "framer-motion";
+import React, { useState } from "react"
+import Modal from "react-modal"
+import { motion } from "framer-motion"
 
 const CertificateBox = ({ title, des, img }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const imageUrl = img; // Replace with your image URL
+  const [isOpen, setIsOpen] = useState(false)
+  const imageUrl = img // Replace with your image URL
 
   const openModal = () => {
     const timer = setTimeout(() => {
-      setIsOpen(true);
-    }, 400);
-    return () => clearTimeout(timer);
-  };
-  const closeModal = () => setIsOpen(false);
+      setIsOpen(true)
+    }, 400)
+    return () => clearTimeout(timer)
+  }
+  const closeModal = () => setIsOpen(false)
 
   return (
     <div>
@@ -41,15 +41,14 @@ const CertificateBox = ({ title, des, img }) => {
                 left: "50%",
                 right: "auto",
                 bottom: "auto",
-
-                marginRight: "-20%",
+                marginRight: window.innerWidth <= 768 ? "-50%" : "-20%",
                 transform: "translate(-50%, -50%)",
-                padding: "0",
+                padding: "",
                 border: "none",
                 background: "none",
               },
               overlay: {
-                backgroundColor: "rgba(0, 0, 0, 0.75)",
+                backgroundColor: "rgba(0, 0, 0)",
               },
             }}
           >
@@ -68,7 +67,7 @@ const CertificateBox = ({ title, des, img }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CertificateBox;
+export default CertificateBox

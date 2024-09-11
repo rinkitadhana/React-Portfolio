@@ -1,12 +1,12 @@
-import { FaRegFile } from "react-icons/fa6";
-import ProjectBox from "./projectbox";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { FaRegFile } from "react-icons/fa6"
+import ProjectBox from "./projectbox"
+import { Link } from "react-router-dom"
+import { motion } from "framer-motion"
 
 const SelectedProjects = () => {
   const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
+    window.scrollTo(0, 0)
+  }
   return (
     <div>
       <div className=" mt-7 md:px-6 px-3">
@@ -23,6 +23,7 @@ const SelectedProjects = () => {
           url="https://therinkit-promptopia.vercel.app"
           github="https://github.com/rinkitadhana/Promptopia"
           skill={["NextJS", "MongoDB", "Tailwind"]}
+          preview="./preview/building.mp4"
         />
         <ProjectBox
           img="./project/LinkIt.png"
@@ -33,6 +34,7 @@ const SelectedProjects = () => {
           url="https://therinkit-linkit.vercel.app/"
           github="https://github.com/rinkitadhana/LinkIt"
           skill={["React", "Tailwind"]}
+          preview="./preview/linkit.mp4"
         />
         <ProjectBox
           img="./project/TweetSpree.png"
@@ -43,6 +45,7 @@ const SelectedProjects = () => {
           url="https://therinkit-tweetspree.vercel.app/"
           github="https://github.com/rinkitadhana/TweetSpree"
           skill={["React", "Tailwind", "Node", "AI"]}
+          preview="./preview/tweetspree.mp4"
         />
 
         <div className="flex justify-center mt-4">
@@ -62,7 +65,7 @@ const SelectedProjects = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SelectedProjects;
+export default SelectedProjects
