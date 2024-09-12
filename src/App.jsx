@@ -1,23 +1,22 @@
-import Home from "./pages/home";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import About from "./pages/about";
-import Project from "./pages/project";
-import Blog from "./pages/blog";
-import Navbar from "./Component/navbar";
-import Footer from "./Component/footer";
-import { useState } from "react";
-import ErrorMessage from "./Component/404";
-import LiveClockUpdate from "./tool/Clock";
-import Downbar from "./Component/Downbar";
+import Home from "./pages/home"
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom"
+import About from "./pages/about"
+import Project from "./pages/project"
+import Blog from "./pages/blog"
+import Footer from "./Component/footer"
+import { useState } from "react"
+import ErrorMessage from "./Component/404"
+import LiveClockUpdate from "./tool/Clock"
+import Downbar from "./Component/Downbar"
 
 function App() {
   const systemPrefersDark = window.matchMedia(
     "(prefers-color-scheme: dark)"
-  ).matches;
-  const [darkMode, setDarkMode] = useState(systemPrefersDark);
+  ).matches
+  const [darkMode, setDarkMode] = useState(systemPrefersDark)
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
+    setDarkMode(!darkMode)
+  }
   return (
     <>
       <div className={`${darkMode && "dark"}`}>
@@ -61,7 +60,7 @@ function App() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
