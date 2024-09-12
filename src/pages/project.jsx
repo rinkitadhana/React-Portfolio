@@ -96,17 +96,7 @@ const Project = () => {
               skill={["NextJs", "Tailwind", "V0"]}
               preview="./preview/voiceforge.mp4"
             />
-            <ProjectBox
-              img="./project/Cooldeck.png"
-              title="CoolDeck"
-              status="Running"
-              statusColor="text-green-500"
-              content="This was my first freelance project, which I made for a client in my first year and got paid for it. I used some basic frontend skills. It took me one week to complete the entire project."
-              url="https://cooldeck.netlify.app/"
-              github="https://github.com/rinkitadhana/CoolDeck"
-              skill={["HTML", "CSS", "Javascript", "Bootstrap"]}
-              preview="./preview/cooldeck.mp4"
-            />
+
             <ProjectBox
               img="./project/11Hack.png"
               title="11Hack"
@@ -119,17 +109,6 @@ const Project = () => {
               preview="./preview/building.mp4"
             />
 
-            <ProjectBox
-              img="./project/LyteRate.png"
-              title="LyteRate"
-              status="Running"
-              statusColor="text-green-500"
-              content="It is an educational website created during one of my hackathons, using only HTML, CSS, and JavaScript when I was in my first year. The UI is really great, and it demonstrates my early ability to create user-friendly designs."
-              url="https://lyterate.netlify.app/"
-              github="https://github.com/rinkitadhana/LyteRate"
-              skill={["HTML", "CSS", "Javascript", "Bootstrap"]}
-              preview="./preview/lyterate.mp4"
-            />
             <ProjectBox
               img="./project/Xylem.png"
               title="Clean-up connect"
