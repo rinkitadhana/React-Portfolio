@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"
 
 const About = () => {
   return (
@@ -106,18 +106,11 @@ const About = () => {
                 With a strong foundation in various technologies, I have
                 participated in multiple hackathons where I implemented
                 innovative ideas using different tech stacks. I also earned some
-                exciting merchandise and prizes, including{" "}
-                <a
-                  href="https://github.com/rinkitadhana/Certificates"
-                  target="_blank"
-                  className="font-semibold hover:underline text-blue-500"
-                >
-                  Certificates
-                </a>
-                . These experiences highlight my ability to work as a team
-                player and lead a team effectively. I've successfully worked
-                under various circumstances and tight timelines, adapting
-                quickly to ensure the success of every project.
+                exciting merchandise and prizes, including Certificates. These
+                experiences highlight my ability to work as a team player and
+                lead a team effectively. I've successfully worked under various
+                circumstances and tight timelines, adapting quickly to ensure
+                the success of every project.
               </div>
               <div className=" my-4  md:text-justify text-start ">
                 Besides coding, I'm also a volleyball player on my college team,
@@ -156,7 +149,7 @@ const About = () => {
         </div>
       </div>
     </motion.div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

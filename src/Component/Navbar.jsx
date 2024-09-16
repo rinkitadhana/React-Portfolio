@@ -1,19 +1,19 @@
-import { NavLink, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom"
+import { useEffect } from "react"
 
-const Downbar = () => {
-  const location = useLocation();
+const Navbar = () => {
+  const location = useLocation()
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
+    window.scrollTo(0, 0)
+  }, [location])
 
   let tabs = [
     { id: "/", label: "home" },
     { id: "/about", label: "about" },
     { id: "/project", label: "projects" },
     { id: "/blog", label: "blogs" },
-  ];
+  ]
 
   return (
     <div className="flex justify-center">
@@ -33,7 +33,7 @@ const Downbar = () => {
         ))}
       </nav>
     </div>
-  );
-};
+  )
+}
 
-export default Downbar;
+export default Navbar
