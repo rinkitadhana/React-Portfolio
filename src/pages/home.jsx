@@ -1,16 +1,18 @@
-import Skills from "../Component/skills"
-import SelectedProjects from "../Component/selectedProjects"
-import Highlights from "../Component/highlights"
-import { motion } from "framer-motion"
-import Intro from "../Component/Intro"
-import { Link } from "react-router-dom"
-import { FaArrowRightLong } from "react-icons/fa6"
-import Certificate from "../Component/Certificates"
+import Skills from "../Component/skills";
+import SelectedProjects from "../Component/selectedProjects";
+import Highlights from "../Component/highlights";
+import { motion } from "framer-motion";
+import Intro from "../Component/Intro";
+import { Link } from "react-router-dom";
+import { FaArrowRightLong } from "react-icons/fa6";
+import Certificate from "../Component/Certificates";
+import { VscTools } from "react-icons/vsc";
+import { IoPerson } from "react-icons/io5";
 
 const Home = () => {
   const scrollToTop = () => {
-    window.scrollTo(0, 0)
-  }
+    window.scrollTo(0, 0);
+  };
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.99 }}
@@ -54,11 +56,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-
-            <div className=" text-center mt-3 font-bricolage font-semibold hidden md:block">
-              Explore my <span className="text-theme-blue ">portfolio</span>. I
-              hope you like it <span className=" text-pink-500">:)</span>
-            </div>
           </div>
 
           <div></div>
@@ -73,7 +70,7 @@ const Home = () => {
         </div>
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
