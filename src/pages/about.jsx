@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"
 
 const About = () => {
   return (
@@ -67,8 +67,7 @@ const About = () => {
                   </li>
                   <li className=" flex flex-row gap-2 items-center">
                     <i className="fa-solid fa-medal"></i>
-                    Professional Volleyball player with a strong interest in
-                    football.
+                    Volleyball player with a strong interest in football.
                   </li>
 
                   <li className=" flex flex-row gap-1 items-center">
@@ -129,6 +128,7 @@ const About = () => {
                 Days I code
               </div>
             </div>
+
             <div className=" p-4">
               <img
                 className=" size-full"
@@ -149,7 +149,7 @@ const About = () => {
         </div>
       </div>
     </motion.div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
