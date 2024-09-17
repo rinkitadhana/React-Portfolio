@@ -74,17 +74,7 @@ const Project = () => {
               skill={["React", "Tailwind", "Node", "AI"]}
               preview="./preview/tweetspree.mp4"
             />
-            <ProjectBox
-              img="./project/dovien.png"
-              title="Dovien"
-              status="Running"
-              statusColor="text-green-500"
-              content="This is a freelance project I made in my second year, using some basic frontend technologies and got paid for it. I completed it in 2 weeks."
-              url="https://dovien.netlify.app/"
-              github="https://github.com/rinkitadhana/dovien"
-              skill={["HTML", "CSS", "Javascript", "Bootstrap"]}
-              preview="./preview/dovien.mp4"
-            />
+
             <ProjectBox
               img="./project/TTS.png"
               title="VoiceForge"
