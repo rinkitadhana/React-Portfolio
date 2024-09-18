@@ -43,11 +43,11 @@ const Home = () => {
               " section . Besides development, I am also skilled in Data
               Structures and Algorithms (DSA) and practice daily with LeetCode
               questions, which you can see on my LeetCode profile .
-              <div className=" flex flex-row gap-1 items-center my-2 group cursor-pointer w-fit">
+              <div className=" opacity-65 hover:opacity-95 transition-all  flex flex-row gap-1 items-center my-2 group cursor-pointer w-fit">
                 <Link
                   onClick={scrollToTop}
                   to="/about"
-                  className=" font-bricolage font-semibold text-lg group-hover:underline transition-all "
+                  className="  font-sans font-semibold text-lg group-hover:underline transition-all "
                 >
                   See more about me
                 </Link>
