@@ -5,7 +5,6 @@ import Title from "./Title";
 const Highlights = () => {
   return (
     <CompScreen>
-      {" "}
       <Title title="Highlights" icon={<BsFeather />} />
       <div className="mt-3 text-base ">
         <div className="border-b-2 dark:border-white/30 "></div>
