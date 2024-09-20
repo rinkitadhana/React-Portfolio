@@ -31,7 +31,7 @@ import {
 import { VscTerminalLinux, VscTools } from "react-icons/vsc";
 const Skills = () => {
   return (
-    <div className="md:px-6 px-3 mt-7">
+    <div className="mt-7">
       <div className=" font-bricolage flex items-center   gap-1 text-2xl font-semibold">
         Skills & Tools
         <VscTools /> .

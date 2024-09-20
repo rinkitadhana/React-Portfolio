@@ -1,13 +1,11 @@
-import Home from "./pages/home"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import About from "./pages/about"
-import Project from "./pages/project"
-import Blog from "./pages/blog"
-import Footer from "./Component/footer"
-
-import Navbar from "./Component/Navbar"
-import ErrorMessage from "./pages/404"
-import Dark from "./tool/dark"
+import Home from "./pages/home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./pages/about";
+import Project from "./pages/project";
+import Blog from "./pages/blog";
+import Navbar from "./Layouts/Navbar";
+import ErrorMessage from "./pages/404";
+import Dark from "./tool/dark";
 
 function App() {
   return (
@@ -22,11 +20,10 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="*" element={<ErrorMessage />} />
           </Routes>
-          <Footer />
         </Dark>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

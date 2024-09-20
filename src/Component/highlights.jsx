@@ -1,15 +1,15 @@
 import { BsFeather } from "react-icons/bs";
+import CompScreen from "../Layouts/CompScreen";
+import Title from "./Title";
 
 const Highlights = () => {
   return (
-    <div className="md:px-6 px-3 mt-7 md:mt-5 font-popins ">
-      <div className=" font-bricolage flex items-center  gap-1 text-2xl font-semibold">
-        Highlights
-        <BsFeather />.
-      </div>
+    <CompScreen>
+      {" "}
+      <Title title="Highlights" icon={<BsFeather />} />
       <div className="mt-3 text-base ">
         <div className="border-b-2 dark:border-white/30 "></div>
-        <div className=" divide-y-2 dark:divide-white/30 px-2 md:px-0">
+        <div className=" divide-y-2 dark:divide-white/30 ">
           <div>
             <div className=" py-4 md:text-justify text-start  ">
               I'm currently on a 100 Days of Code journey, which I started on
@@ -64,7 +64,7 @@ const Highlights = () => {
         </div>
         <div className="border-b-2 dark:border-white/30"></div>
       </div>
-    </div>
+    </CompScreen>
   );
 };
 

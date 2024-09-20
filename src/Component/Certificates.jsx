@@ -2,6 +2,8 @@ import CertificateBox from "./CertificateBox";
 import { GrCertificate } from "react-icons/gr";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import CompScreen from "../Layouts/CompScreen";
+import Title from "./Title";
 
 const SelectedCertificate = () => {
   const data = [
@@ -105,11 +107,8 @@ const SelectedCertificate = () => {
     setVis((prev) => !prev);
   }
   return (
-    <div className=" mt-7 md:mt-5 md:px-6 px-3">
-      <div className=" font-bricolage flex items-center gap-1 text-2xl font-semibold">
-        Certificates
-        <GrCertificate />.
-      </div>
+    <CompScreen>
+      <Title title="Certificate" icon={<GrCertificate />} />
       <div className=" md:flex flex-col items-center">
         <div className=" flex-col flex md:gap-6 gap-4 mt-4">
           <div className=" flex md:flex-row items-center flex-col gap-4">
@@ -170,22 +169,22 @@ const SelectedCertificate = () => {
             )}
           </AnimatePresence>
         </div>
-        <div className="flex justify-center mt-4">
-          <div onClick={handlevis}>
-            <motion.div
-              transition={{ duration: 0.3 }}
-              whileTap={{ scale: 0.85 }}
-              whileHover={{
-                scale: 1.07,
-              }}
-              className="px-2 py-1.5 cursor-pointer dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20 border-2 border-gray-200 shadow-md shadow-gray-300 font-semibold text-black dark:text-white dark:bg-white/30 w-fit rounded-md"
-            >
-              {vis ? "show less" : "show more"}
-            </motion.div>
-          </div>
-        </div>
       </div>
-    </div>
+      <div className="flex justify-center mt-4 font-sans">
+        <div onClick={handlevis}>
+          <motion.div
+            transition={{ duration: 0.2 }}
+            whileTap={{ scale: 0.85 }}
+            whileHover={{
+              scale: 1.07,
+            }}
+            className="px-2 py-1.5 cursor-pointer dark:shadow-none dark:border-none hover:bg-gray-200 dark:hover:bg-white/20 border-2 border-gray-200 shadow-md shadow-gray-300 font-medium text-black dark:text-white dark:bg-white/30 w-fit rounded-md"
+          >
+            {vis ? "show less" : "show more"}
+          </motion.div>
+        </div>
+      </div>{" "}
+    </CompScreen>
   );
 };
 

@@ -1,22 +1,22 @@
-import { FiGithub } from "react-icons/fi"
-import { GoDotFill } from "react-icons/go"
-import { IoIosLink } from "react-icons/io"
-import { Link } from "react-router-dom"
-import { Tooltip } from "../tool/ToolTip"
+import { FiGithub } from "react-icons/fi";
+import { GoDotFill } from "react-icons/go";
+import { IoIosLink } from "react-icons/io";
+import { Link } from "react-router-dom";
+import { Tooltip } from "../tool/ToolTip";
 
-import { useState } from "react"
-import { motion, AnimatePresence } from "framer-motion"
-import { RiEyeLine, RiEyeOffLine } from "react-icons/ri"
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { RiEyeLine, RiEyeOffLine } from "react-icons/ri";
 
 const ProjectBox = (props) => {
-  const [preview, setPreview] = useState(false)
+  const [preview, setPreview] = useState(false);
   const handleClick = () => {
-    setPreview(!preview)
-  }
+    setPreview(!preview);
+  };
 
   return (
     <div>
-      <div className=" rounded-lg  dark:bg-white/20  shadow-md shadow-gray-200 border-2 border-gray-100 dark:shadow-none dark:border-none mt-4 p-2 flex flex-col gap-2 font-popins">
+      <div className=" rounded-lg  dark:bg-white/20  shadow-md shadow-gray-200 border-2 border-gray-100 dark:shadow-none dark:border-none mt-4 p-2 flex flex-col gap-2 ins">
         <AnimatePresence>
           {preview && (
             <motion.div
@@ -109,7 +109,7 @@ const ProjectBox = (props) => {
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectBox
+export default ProjectBox;
