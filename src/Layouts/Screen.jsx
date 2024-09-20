@@ -7,7 +7,7 @@ const Screen = ({ children }) => {
       animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       transition={{ duration: 0.8 }}
     >
-      <div className="md:w-[865px] mx-auto text-gray-700 dark:text-white mt-5 pb-20 font-popins px-2 md:px-0">
+      <div className="md:w-[865px] mx-auto text-gray-700 dark:text-white md:mt-10 mt-7 pb-20 font-popins px-2 md:px-0">
         {children}
       </div>
     </motion.div>
