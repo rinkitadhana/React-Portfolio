@@ -6,6 +6,7 @@ import Blog from "./pages/blog";
 import Navbar from "./Layouts/Navbar";
 import ErrorMessage from "./pages/404";
 import Dark from "./tool/dark";
+import BuyMeCoffee from "./Component/BuyMeCoffee";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/project" element={<Project />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="*" element={<ErrorMessage />} />
+            <Route path="/begger" element={<BuyMeCoffee />} />
           </Routes>
         </Dark>
       </BrowserRouter>

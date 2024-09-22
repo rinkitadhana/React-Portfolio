@@ -2,6 +2,7 @@ import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FiLinkedin } from "react-icons/fi";
 import { LuGithub } from "react-icons/lu";
 import { SiBuymeacoffee, SiLeetcode } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const Intro = () => {
   return (
@@ -60,13 +61,12 @@ const Intro = () => {
           >
             <FaInstagram />
           </a>
-          <a
-            href=""
-            target="_blank"
+          <Link
+            to="/begger"
             className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
           >
             <SiBuymeacoffee />
-          </a>
+          </Link>
         </div>
         <a
           href="https://therinkit-linkit.vercel.app/"
