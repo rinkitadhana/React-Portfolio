@@ -49,7 +49,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               `py-1 px-1.5 rounded-lg relative ${
                 isActive
-                  ? "text-white dark:text-black"
+                  ? "text-white dark:text-black transition-all delay-100"
                   : "hover:opacity-60 dark:text-white"
               }`
             }
