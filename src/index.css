@@ -5,3 +5,7 @@
 * {
   @apply transition-colors duration-75;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
