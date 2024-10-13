@@ -34,8 +34,8 @@ const Project = () => {
       id: 3,
       img: "./project/promptopia.svg",
       title: "Promptopia",
-      status: "Building",
-      statusColor: "text-blue-500",
+      status: "Running",
+      statusColor: "text-green-500",
       content:
         "A full-stack Next.js project for sharing your AI prompts and using others' shared prompts, featuring Google authentication, profile management, and options to like, edit, and delete prompts. It also includes advanced search and filtering capabilities to easily find and manage prompts.",
       url: "https://therinkit-promptopia.vercel.app",
