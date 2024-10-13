@@ -5,18 +5,8 @@ import Screen from "../Layouts/Screen"
 const Blog = () => {
   const blogCard = [
     {
-      title: "How i made this?",
-      description: "here i'll show how i made this thing from scrach",
-      date: "13 october 2024",
-    },
-    {
-      title: "How i made this?",
-      description: "here i'll show how i made this thing from scrach",
-      date: "13 october 2024",
-    },
-    {
-      title: "How i made this?",
-      description: "here i'll show how i made this thing from scrach",
+      title: "Blog's title",
+      description: "this is the description of this blog",
       date: "13 october 2024",
     },
   ]
