@@ -1,8 +1,7 @@
-import { FaInstagram, FaXTwitter } from "react-icons/fa6";
-import { FiLinkedin } from "react-icons/fi";
-import { LuGithub } from "react-icons/lu";
-import { SiBuymeacoffee, SiLeetcode } from "react-icons/si";
-import { Link } from "react-router-dom";
+import { FaInstagram, FaXTwitter } from "react-icons/fa6"
+import { FiLinkedin } from "react-icons/fi"
+import { LuGithub } from "react-icons/lu"
+import { SiBuymeacoffee, SiLeetcode } from "react-icons/si"
 
 const Intro = () => {
   return (
@@ -61,12 +60,12 @@ const Intro = () => {
           >
             <FaInstagram />
           </a>
-          <Link
-            to="/begger"
+          <a
+            href=""
             className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
           >
             <SiBuymeacoffee />
-          </Link>
+          </a>
         </div>
         <a
           href="https://therinkit-linkit.vercel.app/"
@@ -77,7 +76,7 @@ const Intro = () => {
         </a>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Intro;
+export default Intro

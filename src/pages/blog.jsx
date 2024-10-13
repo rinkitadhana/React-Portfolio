@@ -9,6 +9,12 @@ const Blog = () => {
       description: "this is the description of this blog",
       date: "13 october 2024",
     },
+    {
+      title: "Blog's title",
+      description:
+        "this is the description of this blog this is the description of this blog this is the description of this blogc  ",
+      date: "13 october 2024",
+    },
   ]
   return (
     <Screen>

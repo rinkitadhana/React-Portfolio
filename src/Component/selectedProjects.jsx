@@ -1,37 +1,37 @@
-import { FaRegFile } from "react-icons/fa6";
-import ProjectBox from "./projectbox";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import CompScreen from "../Layouts/CompScreen";
-import Title from "./Title";
+import { FaRegFile } from "react-icons/fa6"
+import ProjectBox from "./projectbox"
+import { Link } from "react-router-dom"
+import { motion } from "framer-motion"
+import CompScreen from "../Layouts/CompScreen"
+import Title from "./Title"
 
 const SelectedProjects = () => {
   const projects = [
     {
       id: 1,
-      img: "./project/promptopia.svg",
-      title: "Promptopia",
-      status: "Building",
-      statusColor: "text-blue-500",
-      content:
-        "A full-stack Next.js project for sharing your AI prompts and using others' shared prompts, featuring Google authentication, profile management, and options to like, edit, and delete prompts. It also includes advanced search and filtering capabilities to easily find and manage prompts.",
-      url: "https://therinkit-promptopia.vercel.app",
-      github: "https://github.com/rinkitadhana/Promptopia",
-      skill: ["NextJS", "MongoDB", "Tailwind"],
-      preview: "./preview/building.mp4",
-    },
-    {
-      id: 2,
-      img: "./project/LinkIt.png",
-      title: "LinkIt",
+      img: "./project/DailyCrime.png",
+      title: "Daily Crimes",
       status: "Running",
       statusColor: "text-green-500",
       content:
-        "A project that includes all your social media and project links, fully customizable with a simple and easy-to-use interface. It provides a streamlined way to showcase your online presence, allowing you to effortlessly update and manage your profiles.",
-      url: "https://therinkit-linkit.vercel.app/",
-      github: "https://github.com/rinkitadhana/LinkIt",
-      skill: ["React", "Tailwind"],
-      preview: "./preview/linkit.mp4",
+        "This is a newspaper UI website designed to give you the authentic feel of reading a traditional newspaper. Explore news stories in a classic layout, blending modern web design with old-world charm.",
+      url: "https://thedailycrimes.vercel.app/",
+      github: "https://github.com/rinkitadhana/The-Daily-Crimes",
+      skill: ["ReactJS", "TypeScript", "Tailwind", "GSAP"],
+      preview: "./preview/dailycrimes.mp4",
+    },
+    {
+      id: 2,
+      img: "./project/apple.jpg",
+      title: "Apple Clone",
+      status: "Building",
+      statusColor: "text-blue-500",
+      content:
+        "This is a clone website of the iPhone 15 Pro, featuring 3D models and dynamic animations that bring the device to life. The smooth interactions and immersive visuals replicate the experience of a real product site. Explore every detail as if you’re navigating the official Apple page.",
+      url: "https://therinkit-appleclone.vercel.app/",
+      github: "https://github.com/rinkitadhana/iphone15-Apple-Clone",
+      skill: ["ReactJs", "Tailwind", "GSAP", "ThreeJS", "3D Models"],
+      preview: "",
     },
     {
       id: 3,
@@ -43,14 +43,14 @@ const SelectedProjects = () => {
         "A project to boost your Twitter engagement by generating a variety of programming-related content, including fun questions, creative tweets, and useful advice. This tool helps you connect with your audience by providing fresh and engaging posts tailored to the programming community.",
       url: "https://therinkit-tweetspree.vercel.app/",
       github: "https://github.com/rinkitadhana/TweetSpree",
-      skill: ["React", "Tailwind", "Node", "AI"],
+      skill: ["React", "Tailwind", "Node", "Express", "AI"],
       preview: "./preview/tweetspree.mp4",
     },
-  ];
+  ]
 
   const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
+    window.scrollTo(0, 0)
+  }
   return (
     <CompScreen>
       <Title title="Selected Projects" icon={<FaRegFile />} />
@@ -86,7 +86,7 @@ const SelectedProjects = () => {
         </Link>
       </div>
     </CompScreen>
-  );
-};
+  )
+}
 
-export default SelectedProjects;
+export default SelectedProjects
