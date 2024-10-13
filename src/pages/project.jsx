@@ -27,7 +27,7 @@ const Project = () => {
         "A full stack blogging website built using the MERN stack, offering a variety of features to enhance user experience. The website allows users to manage their profiles, and engage through comments and likes. It also includes user authentication and real-time updates.",
       url: "https://therinkit-building.vercel.app",
       github: "https://github.com/rinkitadhana/Anecdot",
-      skill: ["React", "Tailwind", "Node", "Express", "Mongo", "Redux Toolkit"],
+      skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
       preview: "./preview/building.mp4",
     },
     {
@@ -148,6 +148,7 @@ const Project = () => {
             github={project.github}
             skill={project.skill}
             preview={project.preview}
+            remove={project.remove}
           />
         </div>
       ))}
