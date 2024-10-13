@@ -1,25 +1,25 @@
-import { BiLogoPostgresql } from "react-icons/bi";
-import { DiJavascript } from "react-icons/di";
-import { FaRegPlayCircle } from "react-icons/fa";
-import { FaCss3Alt, FaGitAlt, FaGithub } from "react-icons/fa6";
-import { IoLogoNodejs } from "react-icons/io5";
+import { BiLogoPostgresql } from "react-icons/bi"
+import { DiJavascript } from "react-icons/di"
+import { FaRegPlayCircle } from "react-icons/fa"
+import { FaCss3Alt, FaGitAlt, FaGithub } from "react-icons/fa6"
+import { IoLogoNodejs } from "react-icons/io5"
 import {
   RiHtml5Fill,
   RiJavaLine,
   RiNextjsLine,
   RiReactjsLine,
   RiTailwindCssFill,
-} from "react-icons/ri";
-import { SiExpress, SiMongodb, SiPostman, SiVercel } from "react-icons/si";
+} from "react-icons/ri"
+import { SiExpress, SiMongodb, SiPostman, SiVercel } from "react-icons/si"
 import {
   TbBrandCpp,
   TbBrandFramerMotion,
   TbBrandTypescript,
   TbHexagonLetterC,
-} from "react-icons/tb";
-import { VscTerminalLinux, VscTools } from "react-icons/vsc";
-import CompScreen from "../Layouts/CompScreen";
-import Title from "./Title";
+} from "react-icons/tb"
+import { VscTerminalLinux, VscTools } from "react-icons/vsc"
+import CompScreen from "../Layouts/CompScreen"
+import Title from "./Title"
 const Skills = () => {
   const skills = [
     { id: 1, icon: <RiHtml5Fill />, text: "HTML" },
@@ -43,7 +43,7 @@ const Skills = () => {
     { id: 19, icon: <TbBrandCpp />, text: "C++" },
     { id: 20, icon: <VscTerminalLinux />, text: "Linux" },
     { id: 21, icon: <SiVercel />, text: "Vercel" },
-  ];
+  ]
 
   return (
     <CompScreen>
@@ -61,7 +61,7 @@ const Skills = () => {
         ))}
       </div>
     </CompScreen>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills

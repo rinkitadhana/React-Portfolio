@@ -1,6 +1,6 @@
-import ProjectBox from "../Component/projectbox";
-import Title from "../Component/Title";
-import Screen from "../Layouts/Screen";
+import ProjectBox from "../Component/projectbox"
+import Title from "../Component/Title"
+import Screen from "../Layouts/Screen"
 
 const Project = () => {
   const projects = [
@@ -121,11 +121,11 @@ const Project = () => {
       skill: ["Java", "JavaFX"],
       preview: "",
     },
-  ];
+  ]
 
   return (
     <Screen>
-      <div className="flex flex-row justify-between px-2 items-center">
+      <div className="flex flex-row justify-between items-center">
         <Title title="Projects" />
         <a
           href="https://github.com/rinkitadhana?tab=repositories"
@@ -152,7 +152,7 @@ const Project = () => {
         </div>
       ))}
     </Screen>
-  );
-};
+  )
+}
 
-export default Project;
+export default Project

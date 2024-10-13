@@ -1,20 +1,23 @@
-import { motion } from "framer-motion";
-import Screen from "../Layouts/Screen";
-import Title from "../Component/Title";
+import { motion } from "framer-motion"
+import Screen from "../Layouts/Screen"
+import Title from "../Component/Title"
 
 const About = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.99 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 1 }}
-    >
-      <Screen>
-        <div className="flex flex-row justify-start ">
-          <Title title="About Me" />
-        </div>
+    <Screen>
+      <div className="flex flex-row justify-between items-center">
+        <Title title="About Me" />
+        <a
+          href="https://x.com/rnkktt"
+          target="_blank"
+          className=" font-medium text-blue-500 hover:underline tracking-tight"
+        >
+          Follow me on X
+        </a>
+      </div>
+      <div className=" md:px-1.5">
         <div className=" mt-6 md:mt-0">
-          <div className=" flex flex-row gap-2 items-center justify-between  ">
+          <div className=" flex flex-row gap-2 items-center justify-between mt-2 ">
             <div className=" text-start w-full hidden md:block  ">
               <ul className="">
                 <li className=" flex flex-row gap-2 items-center">
@@ -78,7 +81,7 @@ const About = () => {
               </ul>
             </div>
             <img
-              className=" border md:size-52  md:rounded-full rounded-xl md:hover:scale-105  transition delay-100"
+              className=" border md:size-52 md:scale-90  rounded-xl md:rounded-full hover:grayscale  transition-all delay-100"
               src="/IMG/dp2.jpg"
             />
           </div>
@@ -138,9 +141,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </Screen>
-    </motion.div>
-  );
-};
+      </div>
+    </Screen>
+  )
+}
 
-export default About;
+export default About

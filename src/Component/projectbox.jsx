@@ -1,18 +1,18 @@
-import { FiGithub } from "react-icons/fi";
-import { GoDotFill } from "react-icons/go";
-import { IoIosLink } from "react-icons/io";
-import { Link } from "react-router-dom";
-import { Tooltip } from "../tool/ToolTip";
+import { FiGithub } from "react-icons/fi"
+import { GoDotFill } from "react-icons/go"
+import { IoIosLink } from "react-icons/io"
+import { Link } from "react-router-dom"
+import { Tooltip } from "../tool/ToolTip"
 
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { RiEyeLine, RiEyeOffLine } from "react-icons/ri";
+import { useState } from "react"
+import { motion, AnimatePresence } from "framer-motion"
+import { RiEyeLine, RiEyeOffLine } from "react-icons/ri"
 
 const ProjectBox = (props) => {
-  const [preview, setPreview] = useState(false);
+  const [preview, setPreview] = useState(false)
   const handleClick = () => {
-    setPreview(!preview);
-  };
+    setPreview(!preview)
+  }
 
   return (
     <div>
@@ -109,7 +109,7 @@ const ProjectBox = (props) => {
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProjectBox;
+export default ProjectBox
