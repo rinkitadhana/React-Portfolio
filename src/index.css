@@ -9,3 +9,7 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+html {
+  scrollbar-width: thin;
+}
