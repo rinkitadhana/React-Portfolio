@@ -6,33 +6,6 @@
   @apply transition-colors duration-75;
 }
 
-/* Custom thin scrollbar styles without background */
-body {
-  scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: black transparent; /* Only the scrollbar thumb is visible, no background */
-}
-
-/* For WebKit browsers (Chrome, Safari) */
-body::-webkit-scrollbar {
-  width: 6px; /* Thin scrollbar */
-}
-
-body::-webkit-scrollbar-track {
-  background-color: transparent; /* Remove scrollbar track background */
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: transparent; /* Only the scrollbar thumb */
-  border-radius: 10px; /* Rounded edges */
-  background: none;
-}
-
-/* Initially hide the scrollbar */
-.hidden-scrollbar body::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-}
-
-/* Show the scrollbar when the user interacts */
-.show-scrollbar body::-webkit-scrollbar {
-  display: block;
 }
