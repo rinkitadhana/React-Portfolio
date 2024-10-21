@@ -4,6 +4,32 @@ import { LuGithub } from "react-icons/lu"
 import { SiBuymeacoffee, SiLeetcode } from "react-icons/si"
 
 const Intro = () => {
+  const links = [
+    {
+      href: "https://x.com/rnkktt",
+      logo: <FaXTwitter />,
+    },
+    {
+      href: "https://github.com/rinkitadhana",
+      logo: <LuGithub />,
+    },
+    {
+      href: "https://www.linkedin.com/in/rinkitadhana/",
+      logo: <FiLinkedin />,
+    },
+    {
+      href: "https://leetcode.com/u/therinkit/",
+      logo: <SiLeetcode />,
+    },
+    {
+      href: "https://www.instagram.com/rnkktt/",
+      logo: <FaInstagram />,
+    },
+    {
+      href: "",
+      logo: <SiBuymeacoffee />,
+    },
+  ]
   return (
     <div className=" flex flex-row gap-3 items-center">
       <img
@@ -24,55 +50,23 @@ const Intro = () => {
         </div>
 
         <div className="flex flex-row gap-2 text-2xl mt-1">
-          <a
-            href="https://x.com/rnkktt"
-            target="_blank"
-            className=" hover:text-theme-blue hover:scale-125 transition-transform delay-100"
-          >
-            <FaXTwitter />
-          </a>
-          <a
-            href="https://github.com/rinkitadhana"
-            target="_blank"
-            className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
-          >
-            <LuGithub />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/rinkitadhana/"
-            target="_blank"
-            className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
-          >
-            <FiLinkedin />
-          </a>
-          <a
-            href="https://leetcode.com/u/therinkit/"
-            target="_blank"
-            className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
-          >
-            <SiLeetcode />
-          </a>
-          <a
-            href="https://www.instagram.com/rnkktt/"
-            target="_blank"
-            className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
-          >
-            <FaInstagram />
-          </a>
-          <a
-            href=""
-            className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
-          >
-            <SiBuymeacoffee />
-          </a>
+          {links.map((item) => (
+            <a
+              key={item.logo}
+              href={item.href}
+              target="_blank"
+              className="hover:text-theme-blue hover:scale-125 transition-transform delay-100"
+            >
+              {item.logo}
+            </a>
+          ))}
         </div>
         <a
           href="https://therinkit-linkit.vercel.app/"
           target="_blank"
-          className=" hover:underline mt-1 w-fit "
+          className=" hover:underline mt-1 w-fit text-blue-500"
         >
-          therinkit-linkit.vercel.app
+          therinkit-linkit.online
         </a>
       </div>
     </div>

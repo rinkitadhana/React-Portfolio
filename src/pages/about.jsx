@@ -1,6 +1,8 @@
-import { motion } from "framer-motion"
 import Screen from "../Layouts/Screen"
 import Title from "../Component/Title"
+import SelectedCertificate from "./../Component/Certificates"
+import { FaLaptopCode } from "react-icons/fa"
+import { IoCodeSlash } from "react-icons/io5"
 
 const About = () => {
   return (
@@ -118,10 +120,11 @@ const About = () => {
             </div>
           </div>
         </div>
+        <SelectedCertificate />
 
         <div>
-          <div className="flex flex-row justify-start mt-4">
-            <Title title=" Days I code" />
+          <div className="flex flex-row justify-start mt-7 md:mt-5">
+            <Title title=" Days I code" icon={<IoCodeSlash />} />
           </div>
 
           <div className=" p-4">

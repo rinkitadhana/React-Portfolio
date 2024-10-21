@@ -1,10 +1,9 @@
-import Skills from "../Component/skills";
-import SelectedProjects from "../Component/selectedProjects";
-import Highlights from "../Component/highlights";
-import Intro from "../Component/Intro";
-import Certificate from "../Component/Certificates";
-import Screen from "../Layouts/Screen";
-import Summary from "../Component/Summary";
+import Skills from "../Component/skills"
+import SelectedProjects from "../Component/selectedProjects"
+import Highlights from "../Component/highlights"
+import Intro from "../Component/Intro"
+import Screen from "../Layouts/Screen"
+import Summary from "../Component/Summary"
 
 const Home = () => {
   return (
@@ -13,10 +12,9 @@ const Home = () => {
       <Summary />
       <Skills />
       <SelectedProjects />
-      <Certificate />
       <Highlights />
     </Screen>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
