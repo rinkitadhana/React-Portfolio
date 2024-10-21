@@ -10,7 +10,14 @@ import {
   RiReactjsLine,
   RiTailwindCssFill,
 } from "react-icons/ri"
-import { SiExpress, SiMongodb, SiPostman, SiVercel } from "react-icons/si"
+import {
+  SiExpress,
+  SiGreensock,
+  SiMongodb,
+  SiPostman,
+  SiShadcnui,
+  SiVercel,
+} from "react-icons/si"
 import {
   TbBrandCpp,
   TbBrandFramerMotion,
@@ -29,20 +36,21 @@ const Skills = () => {
     { id: 5, icon: <RiTailwindCssFill />, text: "Tailwind" },
     { id: 6, icon: <RiReactjsLine />, text: "ReactJs" },
     { id: 7, icon: <RiNextjsLine />, text: "NextJs" },
-    { id: 8, icon: <FaRegPlayCircle />, text: "Flowbite" },
+    { id: 8, icon: <SiShadcnui />, text: "shadcn" },
     { id: 9, icon: <TbBrandFramerMotion />, text: "Framer Motion" },
-    { id: 10, icon: <IoLogoNodejs />, text: "NodeJS" },
-    { id: 11, icon: <SiExpress />, text: "ExpressJS" },
-    { id: 12, icon: <SiPostman />, text: "Postman" },
-    { id: 13, icon: <BiLogoPostgresql />, text: "PostgreSQL" },
-    { id: 14, icon: <SiMongodb />, text: "MongoDB" },
-    { id: 15, icon: <FaGitAlt />, text: "Git" },
-    { id: 16, icon: <FaGithub />, text: "GitHub" },
-    { id: 17, icon: <RiJavaLine />, text: "Java" },
-    { id: 18, icon: <TbHexagonLetterC />, text: "C" },
-    { id: 19, icon: <TbBrandCpp />, text: "C++" },
-    { id: 20, icon: <VscTerminalLinux />, text: "Linux" },
-    { id: 21, icon: <SiVercel />, text: "Vercel" },
+    { id: 10, icon: <SiGreensock />, text: "GSAP" },
+    { id: 11, icon: <IoLogoNodejs />, text: "NodeJS" },
+    { id: 12, icon: <SiExpress />, text: "ExpressJS" },
+    { id: 13, icon: <SiPostman />, text: "Postman" },
+    { id: 14, icon: <BiLogoPostgresql />, text: "PostgreSQL" },
+    { id: 15, icon: <SiMongodb />, text: "MongoDB" },
+    { id: 16, icon: <FaGitAlt />, text: "Git" },
+    { id: 17, icon: <FaGithub />, text: "GitHub" },
+    { id: 18, icon: <RiJavaLine />, text: "Java" },
+    { id: 19, icon: <TbHexagonLetterC />, text: "C" },
+    { id: 20, icon: <TbBrandCpp />, text: "C++" },
+    { id: 21, icon: <VscTerminalLinux />, text: "Linux" },
+    { id: 22, icon: <SiVercel />, text: "Vercel" },
   ]
 
   return (
