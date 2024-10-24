@@ -8,12 +8,14 @@ const Blog = () => {
       title: "Blog's title",
       description: "this is the description of this blog",
       date: "13 october 2024",
+      path: "/blog/first",
     },
     {
       title: "Blog's title",
       description:
         "this is the description of this blog this is the description of this blog this is the description of this blogc  ",
       date: "13 october 2024",
+      path: "/first",
     },
   ]
   return (
@@ -27,6 +29,7 @@ const Blog = () => {
             title={item.title}
             description={item.description}
             date={item.date}
+            path={item.path}
           />
         </div>
       ))}
