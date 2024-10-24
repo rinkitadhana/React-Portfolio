@@ -44,7 +44,11 @@ const About = () => {
                   <i className="fa-solid fa-screwdriver-wrench"></i>
                   Primarily work with{" "}
                   <span>
-                    <span className="text-blue-500 font-semibold">React</span>,
+                    <span className="text-blue-500 font-semibold">React</span>,{" "}
+                    <span className="text-blue-500 font-semibold">
+                      TypeScript
+                    </span>
+                    ,{" "}
                     <span className="text-blue-500 font-semibold">
                       Tailwind CSS
                     </span>
@@ -93,12 +97,12 @@ const About = () => {
               Hey, I'm Rinkit Adhana, a third-year student exploring the field
               of engineering. I live in Delhi, India, and I'm a full-stack
               developer who loves building things and learning something new
-              every day from them. I mainly work with React and Tailwind for
-              frontend development and Express and MongoDB for backend. As a
-              computer science student, I'm also skilled in data structures and
-              algorithms and practice my problem-solving skills daily. I'm
-              looking for opportunities in both web development and software
-              engineering roles.
+              every day from them. I mainly work with React with TypeScript and
+              Tailwind for frontend development and NodeJS and MongoDB for
+              backend. As a computer science student, I'm also skilled in data
+              structures and algorithms and practice my problem-solving skills
+              daily. I'm looking for opportunities in both web development and
+              software engineering roles.
             </div>
             <div className=" my-4  md:text-justify text-start ">
               With a strong foundation in various technologies, I have
