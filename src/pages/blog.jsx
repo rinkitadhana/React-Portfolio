@@ -10,13 +10,6 @@ const Blog = () => {
       date: "13 october 2024",
       path: "/blog/first",
     },
-    {
-      title: "Blog's title",
-      description:
-        "this is the description of this blog this is the description of this blog this is the description of this blogc  ",
-      date: "13 october 2024",
-      path: "/first",
-    },
   ]
   return (
     <Screen>

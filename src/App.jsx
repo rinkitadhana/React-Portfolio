@@ -20,7 +20,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
           </Route>
           <Route path="*" element={<ErrorMessage />} />
-          <Route path="/blog/first" element={<FirstBlog />} />
+          <Route path="blog/first" element={<FirstBlog />} />
         </Routes>
       </Dark>
     </>
