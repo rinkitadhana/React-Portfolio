@@ -6,7 +6,7 @@ import Blog from "./pages/blog"
 import ErrorMessage from "./pages/404"
 import Dark from "./tool/dark"
 import NavLayout from "./Layouts/NavLayout"
-import FirstBlog from "./Blog/FirstBlog"
+import FirstBlog from "./Blog/TheDailyCrimes"
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
           </Route>
           <Route path="*" element={<ErrorMessage />} />
-          <Route path="blog/first" element={<FirstBlog />} />
+          <Route path="blog/the-daily-crimes" element={<FirstBlog />} />
         </Routes>
       </Dark>
     </>
