@@ -1,7 +1,6 @@
 import Screen from "../Layouts/Screen"
 import Title from "../Component/Title"
 import SelectedCertificate from "./../Component/Certificates"
-import { FaLaptopCode } from "react-icons/fa"
 import { IoCodeSlash } from "react-icons/io5"
 
 const About = () => {
@@ -10,7 +9,7 @@ const About = () => {
       <div className="flex flex-row justify-between items-center">
         <Title title="About Me" />
         <a
-          href="https://x.com/rnkktt"
+          href="https://x.com/damnGruz"
           target="_blank"
           className=" font-medium text-blue-500 hover:underline tracking-tight"
         >

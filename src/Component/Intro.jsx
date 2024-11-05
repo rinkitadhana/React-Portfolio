@@ -6,7 +6,7 @@ import { SiBuymeacoffee, SiLeetcode } from "react-icons/si"
 const Intro = () => {
   const links = [
     {
-      href: "https://x.com/rnkktt",
+      href: "https://x.com/damnGruz",
       logo: <FaXTwitter />,
     },
     {
