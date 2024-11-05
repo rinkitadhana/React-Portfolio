@@ -1,39 +1,39 @@
-import React, { useEffect, useRef, useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import React, { useEffect, useRef, useState } from "react"
+import { NavLink, useLocation } from "react-router-dom"
 
 const Navbar = () => {
-  const location = useLocation();
-  const [activeTab, setActiveTab] = useState(location.pathname);
-  const [indicatorStyle, setIndicatorStyle] = useState({});
-  const navRef = useRef(null);
+  const location = useLocation()
+  const [activeTab, setActiveTab] = useState(location.pathname)
+  const [indicatorStyle, setIndicatorStyle] = useState({})
+  const navRef = useRef(null)
 
   const tabs = [
     { id: "/", label: "home" },
     { id: "/about", label: "about" },
     { id: "/project", label: "projects" },
     { id: "/blog", label: "blogs" },
-  ];
+  ]
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-    setActiveTab(location.pathname);
-  }, [location]);
+    window.scrollTo(0, 0)
+    setActiveTab(location.pathname)
+  }, [location])
 
   useEffect(() => {
     const activeElement = navRef.current?.querySelector(
       `a[href="${activeTab}"]`
-    );
+    )
     if (activeElement) {
-      const { offsetLeft, offsetWidth } = activeElement;
+      const { offsetLeft, offsetWidth } = activeElement
       setIndicatorStyle({
         left: `${offsetLeft}px`,
         width: `${offsetWidth}px`,
-      });
+      })
     }
-  }, [activeTab]);
+  }, [activeTab])
 
   return (
-    <div className="fixed bottom-5 left-0 right-0 flex justify-center z-50">
+    <div className="fixed bottom-8 left-0 right-0 flex justify-center z-50">
       <nav
         ref={navRef}
         className="flex gap-2 border dark:border-zinc-800 p-2 bg-white dark:bg-nav-dark rounded-xl font-semibold shadow-custom relative"
@@ -60,7 +60,7 @@ const Navbar = () => {
         ))}
       </nav>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

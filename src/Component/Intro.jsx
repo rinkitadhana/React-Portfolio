@@ -49,7 +49,7 @@ const Intro = () => {
           A <span className=" text-pink-500">Full-Stack Developer</span>.
         </div>
 
-        <div className="flex flex-row gap-2 text-2xl mt-1">
+        <div className="flex flex-wrap gap-2 text-2xl mt-1">
           {links.map((item) => (
             <a
               key={item.logo}
