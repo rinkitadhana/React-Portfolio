@@ -21,13 +21,13 @@ const Project = () => {
       id: 2,
       img: "./project/apple.jpg",
       title: "Apple Clone",
-      status: "Building",
-      statusColor: "text-blue-500",
+      status: "Running",
+      statusColor: "text-green-500",
       content:
         "This is a clone website of the iPhone 15 Pro, featuring 3D models and dynamic animations that bring the device to life. The smooth interactions and immersive visuals replicate the experience of a real product site. Explore every detail as if you’re navigating the official Apple page.",
       url: "https://therinkit-appleclone.vercel.app/",
       github: "https://github.com/rinkitadhana/iphone15-Apple-Clone",
-      skill: ["ReactJs", "Tailwind", "GSAP", "ThreeJS", "3D Models"],
+      skill: ["ReactJs", "Tailwind", "GSAP", "ThreeJS"],
       preview: "",
     },
     {
