@@ -32,6 +32,19 @@ const Project = () => {
     },
     {
       id: 3,
+      img: "./project/brain-rot.png",
+      title: "Brain-Rot Converter",
+      status: "Running",
+      statusColor: "text-green-500",
+      content:
+        "Transform your text into trendy Gen Z language with just a click. Our converter adds slang, abbreviations, and casual phrases to make your message sound like it’s straight out of a meme. Give it a try and speak like the cool crowd!",
+      url: "https://brainrot-language-converter.vercel.app/",
+      github: "https://github.com/rinkitadhana/BrainRot-Language-Converter",
+      skill: ["React", "Tailwind", "Hugging face api"],
+      preview: "",
+    },
+    {
+      id: 4,
       img: "./project/promptopia.svg",
       title: "Promptopia",
       status: "Running",
@@ -44,7 +57,7 @@ const Project = () => {
       preview: "./preview/promptopia.mp4",
     },
     {
-      id: 4,
+      id: 5,
       img: "./project/TweetSpree.png",
       title: "TweetSpree",
       status: "Running",
@@ -57,7 +70,7 @@ const Project = () => {
       preview: "./preview/tweetspree.mp4",
     },
     {
-      id: 5,
+      id: 6,
       img: "./project/LinkIt.png",
       title: "LinkIt",
       status: "Running",
@@ -70,7 +83,7 @@ const Project = () => {
       preview: "./preview/linkit.mp4",
     },
     {
-      id: 6,
+      id: 7,
       img: "./project/Anecdot.png",
       title: "Anecdot.",
       status: "Building",
@@ -83,7 +96,7 @@ const Project = () => {
       preview: "",
     },
     {
-      id: 7,
+      id: 8,
       img: "./project/TTS.png",
       title: "VoiceForge",
       status: "Running",
@@ -96,7 +109,7 @@ const Project = () => {
       preview: "./preview/voiceforge.mp4",
     },
     {
-      id: 8,
+      id: 9,
       img: "./project/11Hack.png",
       title: "11Hack",
       status: "Building",
@@ -109,7 +122,7 @@ const Project = () => {
       preview: "",
     },
     {
-      id: 9,
+      id: 10,
       img: "./project/Xylem.png",
       title: "Clean-up connect",
       status: "Running",
@@ -122,7 +135,7 @@ const Project = () => {
       preview: "./preview/xylem.mp4",
     },
     {
-      id: 10,
+      id: 11,
       img: "./project/Snake.png",
       title: "Snake Game",
       status: "Running",
@@ -135,7 +148,7 @@ const Project = () => {
       preview: "./preview/snake.mp4",
     },
     {
-      id: 11,
+      id: 12,
       img: "./project/StopWatch.png",
       title: "Stop Watch",
       status: "Running",
