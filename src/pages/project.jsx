@@ -40,7 +40,7 @@ const Project = () => {
         "Transform your text into trendy Gen Z language with just a click. Our converter adds slang, abbreviations, and casual phrases to make your message sound like it’s straight out of a meme. Give it a try and speak like the cool crowd!",
       url: "https://brainrot-language-converter.vercel.app/",
       github: "https://github.com/rinkitadhana/BrainRot-Language-Converter",
-      skill: ["React", "Tailwind", "Hugging face api"],
+      skill: ["React", "Tailwind", "Gemini api"],
       preview: "",
     },
     {
