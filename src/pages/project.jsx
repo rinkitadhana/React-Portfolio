@@ -97,7 +97,7 @@ const Project = () => {
     },
     {
       id: 8,
-      img: "./project/TTS.png",
+      img: "./project/TTS.jpg",
       title: "VoiceForge",
       status: "Running",
       statusColor: "text-green-500",
