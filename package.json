@@ -18,6 +18,7 @@
     "react-live-clock": "^6.1.23-beta",
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.26.0",
+    "react-twitter-embed": "^4.0.4",
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {

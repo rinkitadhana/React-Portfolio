@@ -4,6 +4,7 @@ import Highlights from "../Component/highlights"
 import Intro from "../Component/Intro"
 import Screen from "../Layouts/Screen"
 import Summary from "../Component/Summary"
+import PopularPost from "../Component/PopularPost"
 
 const Home = () => {
   return (
