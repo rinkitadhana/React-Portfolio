@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <Screen>
       <Intro />
+
       <Summary />
       <Skills />
       <SelectedProjects />
