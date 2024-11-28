@@ -90,7 +90,7 @@ const Project = () => {
       statusColor: "text-blue-500",
       content:
         "A full stack blogging website built using the MERN stack, offering a variety of features to enhance user experience. The website allows users to manage their profiles, and engage through comments and likes. It also includes user authentication and real-time updates.",
-      url: "https://therinkit-anecdot.vercel.app/",
+      url: "https://anecblog.vercel.app/",
       github: "https://github.com/rinkitadhana/Anecdot",
       skill: ["React", "Tailwind", "Node", "Express", "MongoDB"],
       preview: "",
