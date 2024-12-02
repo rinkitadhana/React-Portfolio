@@ -130,12 +130,16 @@ const About = () => {
             <Title title=" Days I code" icon={<IoCodeSlash />} />
           </div>
 
-          <div className=" p-4">
-            <img
-              className=" size-full"
-              src="https://ghchart.rshah.org/008000/rinkitadhana"
-              alt="rinkitadhana's Github chart"
-            />
+          <div className=" p-4  ">
+            <div className="overflow-x-scroll">
+              <div className="md:w-full w-[850px]">
+                <img
+                  className="w-full h-auto"
+                  src="https://ghchart.rshah.org/008000/rinkitadhana"
+                  alt="rinkitadhana's Github chart"
+                />
+              </div>
+            </div>
 
             <div className="mt-8 flex flex-col md:flex-row gap-2 ">
               <div>
