@@ -9,7 +9,7 @@ const Blog = () => {
       description:
         "In this blog, I dive deep into how I built this project from scratch, sharing each step of the process, the challenges I faced, and the solutions I discovered along the way.",
       date: "30th October 2024",
-      path: "/blog/the-daily-crimes",
+      path: "/",
     },
   ]
   return (
