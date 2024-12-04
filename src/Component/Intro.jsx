@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react"
 import { FaInstagram, FaXTwitter } from "react-icons/fa6"
 import { FiLinkedin } from "react-icons/fi"
 import { LuGithub } from "react-icons/lu"
@@ -30,6 +31,7 @@ const Intro = () => {
       logo: <SiBuymeacoffee />,
     },
   ]
+
   return (
     <div className=" flex flex-row gap-3 items-center">
       <img
