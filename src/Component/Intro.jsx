@@ -7,7 +7,7 @@ import { SiBuymeacoffee, SiLeetcode } from "react-icons/si"
 const Intro = () => {
   const links = [
     {
-      href: "https://x.com/damnGruz",
+      href: "https://twitter.com/intent/follow?screen_name=damnGruz",
       logo: <FaXTwitter />,
     },
     {

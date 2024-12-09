@@ -1,6 +1,6 @@
-import { BsFeather } from "react-icons/bs";
-import CompScreen from "../Layouts/CompScreen";
-import Title from "./Title";
+import { BsFeather } from "react-icons/bs"
+import CompScreen from "../Layouts/CompScreen"
+import Title from "./Title"
 
 const Highlights = () => {
   return (
@@ -16,7 +16,7 @@ const Highlights = () => {
               and Development . If you'd like to follow my progress, feel free
               to follow me on{" "}
               <a
-                href="https://x.com/rnkktt"
+                href="https://twitter.com/intent/follow?screen_name=damnGruz"
                 target="_blank"
                 className="text-blue-500 font-semibold font-sans hover:underline cursor-pointer"
               >
@@ -64,7 +64,7 @@ const Highlights = () => {
         <div className="border-b-2 dark:border-white/30"></div>
       </div>
     </CompScreen>
-  );
-};
+  )
+}
 
-export default Highlights;
+export default Highlights
